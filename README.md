@@ -23,11 +23,11 @@
 <!-- <a href="https://www.hackerrank.com/rudrajit1729">
   <img align="left" alt=" HackerRank" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/hackerrank.svg" />
 </a> -->
-<br></br>
+<br>
 
-An engineering student, researcher and a software developer 👨‍💻 from India.
+An engineer, researcher and a software developer 👨‍💻 from India.
 
-My current work is focused at the intersections of image processing, machine learning, deep learning and quantum computing. I am broadly interested in developing robust and smart software solutions to solve real world problems in interdisciplinary areas of science and technology.
+My current work is focused at the intersections of software engineering, image processing, machine learning, deep learning and quantum computing. I am broadly interested in developing robust and smart software solutions to solve real world problems in interdisciplinary areas of science and technology.
 
 
  - 💬 Ask me about: Tech, Algorithms, Quantum Physics, Bollywood, Comics, Chess
