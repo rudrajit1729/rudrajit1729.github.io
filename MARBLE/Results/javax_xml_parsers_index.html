@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <div class="container" style="max-width: 1620px">
+    <div class="row">
+      <h1 class="col-lg-12 col-md-12 mb-12" style="margin-top: 30px;">javax_xml_parsers</h1>
+    </div>
+    
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_9 (2 partitions, 45 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">javax.xml.parsers.SAXParserFactory.newInstance, javax.xml.parsers.SAXParserFactory.newSAXParser, javax.xml.parsers.SAXParser.parse
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 1 (16 files, similarity: 0.500357191666666)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>ParanoidAndroid_____android_frameworks_base_____AccessPointParserHelper</h6>
+            <pre class="prettyprint">
+    public AccessPointParserHelper(InputStream in) throws Exception {
+        SAXParserFactory factory = SAXParserFactory.newInstance();
+        SAXParser saxParser = factory.newSAXParser();
+        saxParser.parse(in, mHandler);
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>unofficial-openjdk_____openjdk_____VmIdentifierCreateResolve</h6>
+            <pre class="prettyprint">
+    public static void main(String args[]) throws Exception {
+        File testcases =
+                new File(System.getProperty("test.src", "."), "testcases");
+
+        SAXParserFactory spf = SAXParserFactory.newInstance();
+        SAXParser sp = spf.newSAXParser();
+        DefaultHandler dh = new VmIdentifierTestHandler();
+        sp.parse(testcases, dh);
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>serge-rider_____dbeaver_____ShowTipOfTheDayHandler</h6>
+            <pre class="prettyprint">
+        try (InputStream tipsInputStream = FileLocator.find(new URL(pathToTipsFile)).openConnection().getInputStream()) {
+
+            SAXParserFactory factory = SAXParserFactory.newInstance();
+            SAXParser saxParser = factory.newSAXParser();
+
+            TipsXmlHandler handler = new TipsXmlHandler();
+            saxParser.parse(tipsInputStream, handler);
+            result.addAll(handler.getTips());
+
+        } catch (SAXException | ParserConfigurationException e) {
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_8 (3 partitions, 46 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">javax.xml.parsers.DocumentBuilderFactory.newInstance, javax.xml.parsers.DocumentBuilderFactory.newDocumentBuilder, javax.xml.parsers.DocumentBuilder.newDocument
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 2 (10 files, similarity: 0.672076133333333)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>JetBrains_____intellij-community_____az</h6>
+            <pre class="prettyprint">
+   public az(ay var1, String var2, String var3, Attributes var4) throws ParserConfigurationException {
+      this.d = var1;
+      DocumentBuilderFactory var5 = DocumentBuilderFactory.newInstance();
+      DocumentBuilder var6 = var5.newDocumentBuilder();
+      this.a = var6.newDocument();
+      this.a(var3, var4);
+   }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>liferay_____liferay-portal_____XMLUtil</h6>
+            <pre class="prettyprint">
+	public static Document createDocument() throws Exception {
+		DocumentBuilderFactory documentBuilderFactory =
+			DocumentBuilderFactory.newInstance();
+
+		DocumentBuilder documentBuilder =
+			documentBuilderFactory.newDocumentBuilder();
+
+		return documentBuilder.newDocument();
+	}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>x-stream_____xstream_____DomWriterTest</h6>
+            <pre class="prettyprint">
+    protected void setUp() throws Exception {
+        super.setUp();
+        final DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
+        final DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
+        document = documentBuilder.newDocument();
+        writer = new DomWriter(document);
+    }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 1 (13 files, similarity: 0.46422064102564103)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>intuit_____karate_____XmlUtils</h6>
+            <pre class="prettyprint">
+    public static Document newDocument() {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder;
+        try {
+            builder = factory.newDocumentBuilder();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return builder.newDocument();
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>danfickle_____openhtmltopdf_____DOMBuilder</h6>
+            <pre class="prettyprint">
+    try {
+
+      /* Obtain the document builder for the configured XML parser. */
+      DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory
+          .newInstance();
+
+      DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
+
+      /* Create a document to contain the content. */
+      document = docBuilder.newDocument();
+
+      Map<String, String> nsMap = new HashMap<String, String>();
+
+      createDOM(jsoupDocument, document, document, nsMap);
+      
+    } catch (ParserConfigurationException pce) {
+      throw new RuntimeException(pce);
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>hunterhacker_____jdom_____JAXPDOMAdapter</h6>
+            <pre class="prettyprint">
+        @Override
+        public Document createDocument()
+                        throws JDOMException {
+
+                DocumentBuilder db = localbuilder.get();
+                if (db == null) {
+                        try {
+                                DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+                                db = dbf.newDocumentBuilder();
+                                localbuilder.set(db);
+                        } catch (ParserConfigurationException e) {
+                                throw new JDOMException("Unable to obtain a DOM parser. See cause:", e);
+                        }
+                }
+                return db.newDocument();
+
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+  </div>
+  <!-- /.container -->
+
+
+</body>
+
+</html>
+
+	

@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <div class="container" style="max-width: 1620px">
+    <div class="row">
+      <h1 class="col-lg-12 col-md-12 mb-12" style="margin-top: 30px;">javax_xml_transform</h1>
+    </div>
+    
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_15 (3 partitions, 43 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">javax.xml.transform.TransformerFactory.newInstance, javax.xml.transform.Transformer.setOutputProperty, javax.xml.transform.dom.DOMSource.&lt;init&gt;, javax.xml.transform.stream.StreamResult.&lt;init&gt;, javax.xml.transform.Transformer.transform
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 0 (14 files, similarity: 0.40290943956043934)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>mozilla-mobile_____focus-android_____SearchEngineManager</h6>
+            <pre class="prettyprint">
+        try {
+            final Transformer tf = TransformerFactory.newInstance().newTransformer();
+            tf.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
+            tf.transform(new DOMSource(doc), new StreamResult(writer));
+        } catch (TransformerConfigurationException e) {
+            return null;
+        } catch (TransformerException e) {
+            return null;
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>geoserver_____geoserver_____CatalogWriter</h6>
+            <pre class="prettyprint">
+    public void write(File file) throws IOException {
+        try (FileOutputStream os = new FileOutputStream(file)) {
+            Transformer tx = TransformerFactory.newInstance().newTransformer();
+            tx.setOutputProperty(OutputKeys.INDENT, "yes");
+            DOMSource source = new DOMSource(document);
+            StreamResult result = new StreamResult(os);
+
+            tx.transform(source, result);
+        } catch (Exception e) {
+            String msg = "Could not write catalog to " + file;
+            throw (IOException) new IOException(msg).initCause(e);
+        }
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>jOOQ_____jOOX_____Util</h6>
+            <pre class="prettyprint">
+    static final String toString(Element element) {
+        try {
+            ByteArrayOutputStream out = new ByteArrayOutputStream();
+            Transformer transformer = TransformerFactory.newInstance().newTransformer();
+            transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
+            Source source = new DOMSource(element);
+            Result target = new StreamResult(out);
+            transformer.transform(source, target);
+            return out.toString("UTF-8");
+        }
+        catch (Exception e) {
+            return "[ ERROR IN toString() : " + e.getMessage() + " ]";
+        }
+    }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_3 (3 partitions, 112 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">javax.xml.transform.dom.DOMSource.&lt;init&gt;, javax.xml.transform.stream.StreamResult.&lt;init&gt;, javax.xml.transform.Transformer.transform
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 0 (31 files, similarity: 0.5992259978494622)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>codice_____ddf_____StringxmlAdapter</h6>
+            <pre class="prettyprint">
+      transformer.transform(new DOMSource(anyNode), new StreamResult(buffer));
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>unofficial-openjdk_____openjdk_____GenerationTests</h6>
+            <pre class="prettyprint">
+        trans.transform(new DOMSource(doc), new StreamResult(w));
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>geoserver_____geoserver_____WorkspaceTest</h6>
+            <pre class="prettyprint">
+        transformer.transform(new DOMSource(dom), new StreamResult(writer));
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_5 (2 partitions, 58 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">javax.xml.transform.TransformerException.&lt;init&gt;
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 0 (31 files, similarity: 0.9677429548387062)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>bugvm_____bugvm_____SystemIDResolver</h6>
+            <pre class="prettyprint">
+    catch (MalformedURIException mue)
+    {
+      throw new TransformerException(mue);
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>apache_____ofbiz_____XslTransform</h6>
+            <pre class="prettyprint">
+            } catch (Exception e) {
+                throw new TransformerException("Error creating SAX parser/reader", e);
+            }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>MobiVM_____robovm_____SystemIDResolver</h6>
+            <pre class="prettyprint">
+    catch (MalformedURIException mue)
+    {
+      throw new TransformerException(mue);
+    }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+  </div>
+  <!-- /.container -->
+
+
+</body>
+
+</html>
+
+	

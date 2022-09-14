@@ -1,0 +1,607 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <div class="container" style="max-width: 1620px">
+    <div class="row">
+      <h1 class="col-lg-12 col-md-12 mb-12" style="margin-top: 30px;">android_view_View</h1>
+    </div>
+    
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_6 (3 partitions, 217 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.view.View.findViewById, android.view.View.findViewById, android.view.View.findViewById
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 2 (31 files, similarity: 0.542)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>Coding_____Coding-Android_____PickUserActivity</h6>
+            <pre class="prettyprint">
+            if (convertView == null) {
+                convertView = mInflater.inflate(R.layout.activity_users_list_item, parent, false);
+                holder = new ViewHolder();
+                holder.name = (TextView) convertView.findViewById(R.id.name);
+                holder.icon = (ImageView) convertView.findViewById(R.id.icon);
+                holder.divideTitle = (TextView) convertView.findViewById(R.id.divideTitle);
+                holder.divideLine = convertView.findViewById(R.id.divide_line);
+                convertView.setTag(holder);
+            } else {
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>CraftsmenTech_____AndBase_____ArticleListAdapter</h6>
+            <pre class="prettyprint">
+          if(convertView == null){
+                  convertView = LayoutInflater.from(mContext).inflate(R.layout.item_list, parent, false);
+                          holder = new ViewHolder();
+                          holder.itemsIcon = ((ImageView) convertView.findViewById(R.id.itemsIcon)) ;
+                          holder.itemsTitle = ((TextView) convertView.findViewById(R.id.itemsTitle));
+                          holder.itemsText = ((TextView) convertView.findViewById(R.id.itemsText));
+                          convertView.setTag(holder);
+          }else{
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>rtoshiro_____FullscreenVideoView_____FullscreenVideoLayout</h6>
+            <pre class="prettyprint">
+        if (videoControlsView != null) {
+            RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.FILL_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+            params.addRule(ALIGN_PARENT_BOTTOM);
+            addView(videoControlsView, params);
+
+            this.seekBar = (SeekBar) this.videoControlsView.findViewById(R.id.vcv_seekbar);
+            this.imgfullscreen = (ImageButton) this.videoControlsView.findViewById(R.id.vcv_img_fullscreen);
+            this.imgplay = (ImageButton) this.videoControlsView.findViewById(R.id.vcv_img_play);
+            this.textTotal = (TextView) this.videoControlsView.findViewById(R.id.vcv_txt_total);
+            this.textElapsed = (TextView) this.videoControlsView.findViewById(R.id.vcv_txt_elapsed);
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 1 (46 files, similarity: 0.522)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>HuanTanSheng_____EasyPhotos_____PuzzleSelectorPreviewAdapter</h6>
+            <pre class="prettyprint">
+        public PhotoViewHolder(View itemView) {
+            super(itemView);
+            this.ivPhoto = (ImageView) itemView.findViewById(R.id.iv_photo);
+            this.ivDelete = (ImageView) itemView.findViewById(R.id.iv_delete);
+            this.tvType = (TextView) itemView.findViewById(R.id.tv_type);
+        }
+
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>cloverstudio_____Spika-Android_____UsersInChatRecyclerViewAdapter</h6>
+            <pre class="prettyprint">
+        ViewHolder(View v) {
+            super(v);
+            name = (TextView) v.findViewById(R.id.nameOfUser);
+            progressForAvatar = (ProgressBar) v.findViewById(R.id.avatarProgressBar);
+            avatar = (ImageView) v.findViewById(R.id.avatar);
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>open-keychain_____open-keychain_____ReceivedSecretKeyList</h6>
+            <pre class="prettyprint">
+        ReceivedKeyViewHolder(View itemView) {
+            super(itemView);
+
+            vName = itemView.findViewById(R.id.key_list_item_name);
+            vEmail = itemView.findViewById(R.id.key_list_item_email);
+            vCreation = itemView.findViewById(R.id.key_list_item_creation);
+
+            vImportButton = itemView.findViewById(R.id.button_import);
+            vState = itemView.findViewById(R.id.transfer_state);
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_2 (3 partitions, 135 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.view.View.getId
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 2 (21 files, similarity: 0.687)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>boredream_____DesignResCollection_____RegisterStep1Activity</h6>
+            <pre class="prettyprint">
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.btn_next:
+                next();
+                break;
+        }
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>DIY-green_____AndroidStudyDemo_____BTDPTemplateMethodActivity</h6>
+            <pre class="prettyprint">
+        switch (v.getId()) {
+            case R.id.button:
+                testA();
+                break;
+            case R.id.button2:
+                testB();
+                break;
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>matt-allen_____repay-android_____RepayDebtActivity</h6>
+            <pre class="prettyprint">
+		switch (v.getId())
+		{
+			case R.id.fragment_enterdebtamount_donebtn:
+				((DebtFragment)getFragmentManager().findFragmentById(mFrameId)).saveFields();
+				save();
+				break;
+
+			default:
+				break;
+		}
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_18 (2 partitions, 53 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.view.View.getParent
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 1 (19 files, similarity: 0.752)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>HomHomLin_____Android-PullToRefreshRecyclerView_____PullToRefreshRecyclerView</h6>
+            <pre class="prettyprint">
+                    if(mEmptyView.getParent() != mRootRelativeLayout) {
+                        mRootRelativeLayout.addView(mEmptyView);
+                    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>dodyg_____AndroidRivers_____CustomViewBehind</h6>
+            <pre class="prettyprint">
+		if (v != null && v.getParent() != null) {
+			mSelectedView = v;
+			mSelectedView.setTag(R.id.selected_view, TAG+"SelectedView");
+			invalidate();
+		}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>googlesamples_____android-play-places_____CardStreamLinearLayout</h6>
+            <pre class="prettyprint">
+        if (child.getParent() == null) {
+            initCard(child, true);
+            super.addView(child, index, params);
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_15 (2 partitions, 52 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.view.View.getWidth, android.view.View.getHeight
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 1 (20 files, similarity: 0.698)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>aosp-mirror_____platform_frameworks_support_____AbstractMediaItemPresenter</h6>
+            <pre class="prettyprint">
+            sTempRect.set(0, 0, focusChangedView.getWidth(), focusChangedView.getHeight());
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>jpush_____jchat-android_____StickyGridHeadersGridView</h6>
+            <pre class="prettyprint">
+        if (mHeaderBottomPosition != headerHeight) {
+            canvas.saveLayerAlpha(0, 0, canvas.getWidth(), canvas.getHeight(), 255
+                    * mHeaderBottomPosition / headerHeight, Canvas.ALL_SAVE_FLAG);
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>enricocid_____LaunchEnr_____Launcher</h6>
+            <pre class="prettyprint">
+        return new Rect(pos[0], pos[1], pos[0] + v.getWidth(), pos[1] + v.getHeight());
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_34 (3 partitions, 52 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.view.View.setLayoutParams
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 0 (18 files, similarity: 0.73)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>UweTrottmann_____SeriesGuide_____StickyGridHeadersBaseAdapterWrapper</h6>
+            <pre class="prettyprint">
+            if (params == null) {
+                params = generateDefaultLayoutParams();
+                v.setLayoutParams(params);
+            }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>Prototik_____HoloEverywhere_____LayoutInflater</h6>
+            <pre class="prettyprint">
+                        if (!attachToRoot) {
+                            temp.setLayoutParams(params);
+                        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>xamarin_____XobotOS_____AbsSpinner</h6>
+            <pre class="prettyprint">
+                if (view.getLayoutParams() == null) {
+                    mBlockLayoutRequests = true;
+                    view.setLayoutParams(generateDefaultLayoutParams());
+                    mBlockLayoutRequests = false;
+                }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 2 (10 files, similarity: 0.69)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>wqandroid_____wqgallery_____PhotoAdapter</h6>
+            <pre class="prettyprint">
+      public ImageViewHolder(View itemView) {
+          super(itemView);
+          itemView.setLayoutParams(params);
+          iv_image = (ImageView) itemView.findViewById(R.id.iv_image);
+          alpha_view = itemView.findViewById(R.id.alpha_view);
+          checkBox = (ImageButton) itemView.findViewById(R.id.checkimages);
+      }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>limedroid_____ARecyclerView_____XHeadFootViewHolder</h6>
+            <pre class="prettyprint">
+    public XHeadFootViewHolder(View itemView) {
+        super(itemView);
+        itemView.setLayoutParams(new RecyclerView.LayoutParams(RecyclerView.LayoutParams.MATCH_PARENT, RecyclerView.LayoutParams.WRAP_CONTENT));
+        itemView.setTag(this);
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>guerwan_____TransitionsBackport_____MainActivity</h6>
+            <pre class="prettyprint">
+    private void setNewSize(int id, int width, int height) {
+        View view = findViewById(id);
+        ViewGroup.LayoutParams params = view.getLayoutParams();
+        params.width = width;
+        params.height = height;
+        view.setLayoutParams(params);
+    }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_3 (4 partitions, 126 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.view.View.setVisibility
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 2 (28 files, similarity: 0.815)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>handsomezhou_____PinyinSearchLibrary_____ViewUtil</h6>
+            <pre class="prettyprint">
+		if (View.VISIBLE != view.getVisibility()) {
+			view.setVisibility(View.VISIBLE);
+		}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>android_____platform_frameworks_support_____ActionListItem</h6>
+            <pre class="prettyprint">
+        for (View v : viewHolder.getWidgetViews()) {
+            v.setEnabled(mIsEnabled);
+            v.setVisibility(View.GONE);
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>rtoshiro_____FullscreenVideoView_____FullscreenVideoLayout</h6>
+            <pre class="prettyprint">
+        if (this.videoControlsView != null)
+            this.videoControlsView.setVisibility(View.INVISIBLE);
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_4 (2 partitions, 112 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.view.ViewGroup.getContext
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 1 (56 files, similarity: 0.871)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>NicodeLee_____Beautyacticle_____MainRecyclerViewAdapter</h6>
+            <pre class="prettyprint">
+  @Override public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_main, parent, false);
+
+    return new ViewHolder(view);
+  }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>siwangqishiq_____ImageEditor-Android_____StickerAdapter</h6>
+            <pre class="prettyprint">
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewtype) {
+        View v = null;
+        v = LayoutInflater.from(parent.getContext()).inflate(
+                R.layout.view_sticker_item, parent, false);
+        ImageHolder holer = new ImageHolder(v);
+        return holer;
+    }
+
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>wangdan_____AisenWeiBo_____SearchsSuggestAdapter</h6>
+            <pre class="prettyprint">
+    @Override
+    public ResultViewHolder onCreateViewHolder(final ViewGroup parent, int viewType) {
+        final LayoutInflater mInflater = LayoutInflater.from(parent.getContext());
+        final View sView = mInflater.inflate(com.lapism.searchview.R.layout.search_item, parent, false);
+        return new ResultViewHolder(sView);
+    }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_24 (3 partitions, 44 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.view.ViewGroup.removeView
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 3 (6 files, similarity: 1.0)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>dodyg_____AndroidRivers_____GridView</h6>
+            <pre class="prettyprint">
+            if (view.getParent() != null) {
+                ((ViewGroup) view.getParent()).removeView(view);
+            }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>brucetoo_____ListVideoPlay_____VideoTracker</h6>
+            <pre class="prettyprint">
+        if(mLoadingControllerView != null && mLoadingControllerView.getParent() != null){
+            ((ViewGroup) mLoadingControllerView.getParent()).removeView(mLoadingControllerView);
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>mikepenz_____MaterialDrawer_____ContainerDrawerItem</h6>
+            <pre class="prettyprint">
+        if (mView.getParent() != null) {
+            ((ViewGroup) mView.getParent()).removeView(mView);
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 0 (26 files, similarity: 0.869)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>kercer_____kerkee_android_____KCJSBridge</h6>
+            <pre class="prettyprint">
+            if (vg != null)
+                vg.removeView(aWebview);
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>rickdynasty_____TwsPluginFramework_____ActionBarContextView</h6>
+            <pre class="prettyprint">
+					if (oldParent != null)
+						oldParent.removeView(mMenuView);
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>motianhuo_____wechat_____Fragment_Msg</h6>
+            <pre class="prettyprint">
+			if (parent != null) {
+				parent.removeView(layout);
+			}
+		}
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+  </div>
+  <!-- /.container -->
+
+
+</body>
+
+</html>
+
+	

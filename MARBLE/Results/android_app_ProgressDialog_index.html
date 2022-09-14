@@ -1,0 +1,717 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- Page Content -->
+  <div class="container" style="max-width: 1620px">
+    <div class="row">
+      <h1 class="col-lg-12 col-md-12 mb-12" style="margin-top: 30px;">android_app_ProgressDialog</h1>
+    </div>
+    
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_2 (5 partitions, 224 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.app.ProgressDialog.&lt;init&gt;, android.app.ProgressDialog.setMessage, android.app.ProgressDialog.show
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 0 (57 files, similarity: 0.655)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>meganz_____android_____NodeAttachmentHistoryActivity</h6>
+            <pre class="prettyprint">
+	public void showProgressForwarding(){
+		log("showProgressForwarding");
+
+		statusDialog = new ProgressDialog(this);
+		statusDialog.setMessage(getString(R.string.general_forwarding));
+		statusDialog.show();
+	}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>PaperAirplane-Dev-Team_____BlackLight_____LoginActivity</h6>
+            <pre class="prettyprint">
+		protected void onPreExecute() {
+			super.onPreExecute();
+			progDialog = new ProgressDialog(LoginActivity.this);
+			progDialog.setMessage(getResources().getString(R.string.plz_wait));
+			progDialog.setCancelable(false);
+			progDialog.show();
+		}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>EspressifApp_____IOT-Espressif-Android_____DeviceTimerEditActivityAbs</h6>
+            <pre class="prettyprint">
+        {
+            mDialog = new ProgressDialog(DeviceTimerEditActivityAbs.this);
+            mDialog.setMessage(getString(R.string.esp_device_task_dialog_message));
+            mDialog.setCancelable(false);
+            mDialog.show();
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 2 (15 files, similarity: 0.529)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>leancloud_____leanchat-android_____BaseFragment</h6>
+            <pre class="prettyprint">
+  protected ProgressDialog showSpinnerDialog() {
+    //activity = modifyDialogContext(activity);
+    ProgressDialog dialog = new ProgressDialog(getActivity());
+    dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+    dialog.setCancelable(true);
+    dialog.setMessage(getString(R.string.chat_utils_hardLoading));
+    if (!getActivity().isFinishing()) {
+      dialog.show();
+    }
+    return dialog;
+  }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>DF1E_____SimpleExplorer_____ExtractionTask</h6>
+            <pre class="prettyprint">
+        if (activity != null) {
+            this.dialog = new ProgressDialog(activity);
+            this.dialog.setMessage(activity.getString(R.string.unzipping));
+            this.dialog.setCancelable(true);
+            this.dialog
+                    .setOnCancelListener(new DialogInterface.OnCancelListener() {
+                        @Override
+                        public void onCancel(DialogInterface dialog) {
+                            cancel(false);
+                        }
+                    });
+            if (!activity.isFinishing()) {
+                this.dialog.show();
+            }
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>rexstjohn_____UltimateAndroidCameraGuide_____SimplePhotoGalleryListFragment</h6>
+            <pre class="prettyprint">
+        try {
+            mListener = (OnFragmentInteractionListener) activity;
+            // Show a progress dialog.
+            mLoadingProgressDialog = new ProgressDialog(getActivity());
+            mLoadingProgressDialog.setMessage("Loading Photos...");
+            mLoadingProgressDialog.setCancelable(true);
+            mLoadingProgressDialog.show();
+        } catch (ClassCastException e) {
+            throw new ClassCastException(activity.toString()
+                    + " must implement OnFragmentInteractionListener");
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 3 (26 files, similarity: 0.477)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>psaravan_____JamsMusicPlayer_____AsyncGoogleMusicAuthenticationTask</h6>
+            <pre class="prettyprint">
+    protected void onPreExecute() {
+    	
+    	if (mFirstRun) {
+        	pd = new ProgressDialog(mActivity);
+    		pd.setCancelable(false);
+    		pd.setIndeterminate(true);
+    		pd.setTitle(R.string.signing_in);
+    		pd.setMessage(mContext.getResources().getString(R.string.contacting_google_play_music));
+    		pd.show();
+    	}
+
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>easemob_____sdkdemoapp3.0_android_____ChatRoomDetailsActivity</h6>
+            <pre class="prettyprint">
+                if (resultCode == RESULT_OK) {
+                        if (progressDialog == null) {
+                                progressDialog = new ProgressDialog(ChatRoomDetailsActivity.this);
+                                progressDialog.setMessage(st1);
+                                progressDialog.setCanceledOnTouchOutside(false);
+                        }
+                        switch (requestCode) {
+                        case REQUEST_CODE_EXIT: // �~@~@�~G�群
+                                progressDialog.setMessage(st2);
+                                progressDialog.show();
+                                exitGrop();
+                                break;
+
+                        default:
+                                break;
+                        }
+                }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>wangchenyan_____PonyMusic_____BaseActivity</h6>
+            <pre class="prettyprint">
+    public void showProgress(String message) {
+        if (progressDialog == null) {
+            progressDialog = new ProgressDialog(this);
+            progressDialog.setCancelable(false);
+        }
+        progressDialog.setMessage(message);
+        if (!progressDialog.isShowing()) {
+            progressDialog.show();
+        }
+    }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_19 (3 partitions, 119 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.app.ProgressDialog.&lt;init&gt;, android.app.ProgressDialog.setMessage, android.app.ProgressDialog.setCancelable
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 2 (36 files, similarity: 0.737)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>huangfangyi_____FanXin2.0_IM_____RecorderVideoActivity</h6>
+            <pre class="prettyprint">
+                if(progressDialog == null){
+                    progressDialog = new ProgressDialog(this);
+                    progressDialog.setMessage("processing...");
+                    progressDialog.setCancelable(false);
+                }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>EspressifApp_____IOT-Espressif-Android_____DeviceTimerEditActivityAbs</h6>
+            <pre class="prettyprint">
+        protected void onPreExecute()
+        {
+            mDialog = new ProgressDialog(DeviceTimerEditActivityAbs.this);
+            mDialog.setMessage(getString(R.string.esp_device_task_dialog_message));
+            mDialog.setCancelable(false);
+            mDialog.show();
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>wqandroid_____ihepai_____BaseActivity</h6>
+            <pre class="prettyprint">
+        public void createDialog(String msg) {
+                Basedialog = new ProgressDialog(mContext, R.style.custom_alert_dialog);
+                Basedialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+                Basedialog.setMessage(msg);
+                Basedialog.setIndeterminate(false);
+                Basedialog.setCancelable(false);
+                Basedialog.show();
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 1 (18 files, similarity: 0.46)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>prey_____prey-android-client_____ChangePasswordPreferences</h6>
+            <pre class="prettyprint">
+        protected void onPreExecute() {
+            progressDialog = new ProgressDialog(getContext());
+            progressDialog.setMessage(getContext().getText(R.string.preferences_passwords_updating_dialog).toString());
+            progressDialog.setIndeterminate(true);
+            progressDialog.setCancelable(false);
+            progressDialog.show();
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>evernote_____evernote-sdk-android_____EvernoteLoginFragment</h6>
+            <pre class="prettyprint">
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+        setCancelable(false);
+
+        DialogInterface.OnClickListener onClickListener = new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                EvernoteLoginTask task = (EvernoteLoginTask) TaskExecutor.getInstance().getTask(mTaskKey);
+                if (task != null) {
+                    task.cancel();
+                }
+                onResult(false, task);
+            }
+        };
+
+        ProgressDialog progressDialog = new ProgressDialog(getActivity());
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage(getString(R.string.esdk_loading));
+        progressDialog.setButton(DialogInterface.BUTTON_NEGATIVE, getString(android.R.string.cancel), onClickListener);
+        progressDialog.setCancelable(isCancelable());
+
+        return progressDialog;
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>M66B_____XPrivacy_____ActivityShare</h6>
+            <pre class="prettyprint">
+		protected void onPreExecute() {
+			super.onPreExecute();
+
+			TypedArray ta = getTheme().obtainStyledAttributes(new int[] { R.attr.progress_horizontal });
+			int progress_horizontal = ta.getResourceId(0, 0);
+			ta.recycle();
+
+			// Show progress dialog
+			mProgressDialog = new ProgressDialog(ActivityShare.this);
+			mProgressDialog.setMessage(getString(R.string.msg_loading));
+			mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+			mProgressDialog.setProgressDrawable(getResources().getDrawable(progress_horizontal));
+			mProgressDialog.setProgressNumberFormat(null);
+			mProgressDialog.setCancelable(false);
+			mProgressDialog.setCanceledOnTouchOutside(false);
+			mProgressDialog.show();
+		}
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_18 (3 partitions, 53 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.app.ProgressDialog.&lt;init&gt;, android.app.ProgressDialog.setMessage, android.app.ProgressDialog.setIndeterminate, android.app.ProgressDialog.setCancelable
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 3 (11 files, similarity: 0.627)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>prey_____prey-android-client_____ChangeDeactivationPhrasePreferences</h6>
+            <pre class="prettyprint">
+		protected void onPreExecute() {
+			
+			progressDialog = new ProgressDialog(getContext());
+			progressDialog.setMessage(getContext().getText(R.string.updating_info_message).toString());
+			progressDialog.setIndeterminate(true);
+			progressDialog.setCancelable(false);
+			progressDialog.show();
+		}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>zhuowei_____MCPELauncher_____ManageTexturepacksActivity</h6>
+            <pre class="prettyprint">
+		protected void onPreExecute() {
+			dialog = new ProgressDialog(ManageTexturepacksActivity.this);
+			dialog.setMessage(getResources().getString(R.string.extracting_textures));
+			dialog.setIndeterminate(true);
+			dialog.setCancelable(false);
+			dialog.show();
+		}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>klinker24_____Talon-for-Twitter_____DirectMessageListArrayAdapter</h6>
+            <pre class="prettyprint">
+        protected void onPreExecute() {
+            super.onPreExecute();
+            pDialog = new ProgressDialog(context);
+            pDialog.setMessage(context.getResources().getString(R.string.deleting_messages) + "...");
+            pDialog.setIndeterminate(true);
+            pDialog.setCancelable(false);
+            pDialog.show();
+
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 0 (18 files, similarity: 0.542)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>ParkSangGwon_____TedPicker_____CwacCameraFragment</h6>
+            <pre class="prettyprint">
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        ImagePickerActivity.mMyCameraHost = new MyCameraHost(getActivity());
+
+
+        mProgressDialog = new ProgressDialog(getActivity());
+        mProgressDialog.setMessage(getString(R.string.progress_title));
+        mProgressDialog.setIndeterminate(true);
+        mProgressDialog.setCancelable(false);
+
+    }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>jenzz_____ContentProviderHelper_____ProgressDialogFragment</h6>
+            <pre class="prettyprint">
+	public Dialog onCreateDialog(Bundle savedInstanceState) {
+		int messageResId = getArguments().getInt(ARG_LOADING_MESSAGE);
+		Context context = getActivity();
+
+		ProgressDialog dialog = new ProgressDialog(context);
+		dialog.setMessage(context.getString(messageResId));
+		dialog.setIndeterminate(true);
+		dialog.setCancelable(false);
+		dialog.setCanceledOnTouchOutside(false);
+		setCancelable(false);
+
+		return dialog;
+	}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>kyze8439690_____v2ex-daily-android_____PostCommentDialogFragment</h6>
+            <pre class="prettyprint">
+    public Dialog onCreateDialog(Bundle savedInstanceState) {
+        ProgressDialog progressDialog = new ProgressDialog(getActivity(), ProgressDialog.STYLE_SPINNER);
+        progressDialog.setMessage(getString(R.string.title_commenting));
+        progressDialog.setIndeterminate(true);
+        progressDialog.setCancelable(true);
+        return progressDialog;
+    }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_14 (3 partitions, 57 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.app.ProgressDialog.setProgress
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 2 (16 files, similarity: 0.78)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>jp1017_____ActivityLauncher_____AsyncProvider</h6>
+            <pre class="prettyprint">
+		if(this.progress != null && values.length > 0) {
+			int value = values[0];
+			
+			if(value == 0) {
+				this.progress.setIndeterminate(false);
+				this.progress.setMax(this.max);
+			}
+			
+			this.progress.setProgress(value);
+		}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>psaravan_____JamsMusicPlayer_____AsyncAutoGetAlbumArtTask</h6>
+            <pre class="prettyprint">
+    	if (DIALOG_VISIBLE==true) {
+    		pd.setProgress(Integer.parseInt(values[1]));
+    		pd.setMessage(values[0]);
+    	}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>AndroidVTS_____android-vts_____ApplicationVulnerabilityTester</h6>
+            <pre class="prettyprint">
+            if(mShowWaitDiaglog) {
+                Log.d("ANDRO_ASYNC", progress[0]);
+                mProgressDialog.setProgress(Integer.parseInt(progress[0]));
+            }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_0 (2 partitions, 403 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.app.ProgressDialog.dismiss
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 1 (197 files, similarity: 0.919)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>CommonUtils_____android_____DownloadFile</h6>
+            <pre class="prettyprint">
+        if (pDialog != null && pDialog.isShowing()) {
+            pDialog.dismiss();
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>feicien_____android-auto-update_____CheckUpdateTask</h6>
+            <pre class="prettyprint">
+        if (dialog != null && dialog.isShowing()) {
+            dialog.dismiss();
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>vickychijwani_____quill_____PostEditFragment</h6>
+            <pre class="prettyprint">
+        if (mUploadProgress != null) {
+            mUploadProgress.dismiss();
+            mUploadProgress = null;
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+<hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+        <h3 class="col-lg-12 col-md-12 mb-12">pattern_3 (3 partitions, 108 files)</h3>
+        <br>
+        <h4 class="col-lg-12 col-md-12 mb-12">android.app.ProgressDialog.isShowing
+</h4>
+    </div>
+    <hr class="col-lg-12 col-md-12 mb-12">
+    <div class="row">
+      <div class="col-lg-12">
+      
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 2 (71 files, similarity: 0.988)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>crosswalk-project_____crosswalk-cordova-android_____CordovaActivity</h6>
+            <pre class="prettyprint">
+        if (this.spinnerDialog != null && this.spinnerDialog.isShowing()) {
+            this.spinnerDialog.dismiss();
+            this.spinnerDialog = null;
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>feicien_____android-auto-update_____CheckUpdateTask</h6>
+            <pre class="prettyprint">
+        if (dialog != null && dialog.isShowing()) {
+            dialog.dismiss();
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>AppLozic_____Applozic-Android-SDK_____ConversationUIService</h6>
+            <pre class="prettyprint">
+                                if (progressDialog != null && progressDialog.isShowing()) {
+                                    progressDialog.dismiss();
+                                }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 0 (28 files, similarity: 0.831)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>wangchenyan_____PonyMusic_____BaseActivity</h6>
+            <pre class="prettyprint">
+        if (!progressDialog.isShowing()) {
+            progressDialog.show();
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>GodFengShen_____PicOrVideoToAscii_____BaseActivity</h6>
+            <pre class="prettyprint">
+        if (!progressDialog.isShowing()) {
+            progressDialog.show();
+        }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>jensstein_____oandbackup_____HandleMessages</h6>
+            <pre class="prettyprint">
+        public boolean isShowing()
+        {
+            if(progress != null)
+                return progress.isShowing();
+            return false;
+        }
+            </pre>
+          </div>
+
+        </div>
+        
+	
+<div class="row">
+          <h4 class="col-lg-12 col-md-12 mb-12">Cluster 1 (9 files, similarity: 0.768)</h4>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>entertailion_____DIAL_____ServerFinder</h6>
+            <pre class="prettyprint">
+		if (progressDialog.isShowing()) {
+			try {
+				progressDialog.dismiss();
+			} catch (Throwable e) {
+				Log.e(LOG_TAG, "showOtherDevices", e);
+			}
+		}
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>meganz_____android_____AudioVideoPlayerLollipop</h6>
+            <pre class="prettyprint">
+                if (moveToTrashStatusDialog.isShowing()){
+                    try {
+                        moveToTrashStatusDialog.dismiss();
+                    }
+                    catch (Exception ex) {}
+                    Snackbar.make(containerAudioVideoPlayer, getString(R.string.context_correctly_removed), Snackbar.LENGTH_LONG).show();
+                }
+            </pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h6>PanicInitiative_____PanicButton_____HomeActivity</h6>
+            <pre class="prettyprint">
+            if (pDialog.isShowing())
+				try {
+					pDialog.dismiss();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+            </pre>
+          </div>
+
+        </div>
+        
+	
+      </div>
+    </div>
+
+	
+  </div>
+  <!-- /.container -->
+
+
+</body>
+
+</html>
+
+	
