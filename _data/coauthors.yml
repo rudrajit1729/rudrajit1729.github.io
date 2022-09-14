@@ -1,18 +1,39 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Myers":
+  - firstname: ["Brad", "Brad A."]
+    url: https://www.cs.cmu.edu/~bam/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Vasilescu":
+  - firstname: ["Bogdan"]
+    url: https://bvasiles.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Hellendoorn":
+  - firstname: ["Vincent"]
+    url: http://vhellendoorn.github.io/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Macvean": 
+  - firstname: ["Andrew"]
+    url: https://research.google/people/AndrewMacvean/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Horvath":
+  - firstname: ["Amber"]
+    url: https://horvathaa.github.io/
+
+"Chandra":
+  - firstname: ["Satish"]
+    url: https://sites.google.com/site/schandraacmorg/
+
+"Lee":
+  - firstname: ["Youn Kyu"]
+    url: https://sites.google.com/view/younkyul/home
+
+"Kejriwal":
+  - firstname: ["Mayank"]
+    url: https://usc-isi-i2.github.io/kejriwal/
+
+"Medvidovic":
+  - firstname: ["Nenad"]
+    url: https://softarch.usc.edu/~neno/
+
+"Ray":
+  - firstname: ["Baishakhi"]
+    url: https://www.rayb.info/
