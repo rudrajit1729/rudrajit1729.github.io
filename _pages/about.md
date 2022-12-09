@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I’m Daye Nam and I'm a Software Engineering Ph.D. student at the [Institute for Software Research](https://www.isri.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/). I am co-advised by [Brad Myers](https://www.cs.cmu.edu/~bam/), [Bogdan Vasilescu](https://bvasiles.github.io/), and [Vencent Hellendoorn](http://vhellendoorn.github.io/). I am also a member of the [Natural Programming Group](http://www.cs.cmu.edu/~NatProg/index.html), [STRUDEL](https://cmustrudel.github.io/), and [IPSUM Lab](https://ipsum-lab.github.io/).
+I’m Daye Nam and I'm a Software Engineering Ph.D. student at the [Institute for Software Research](https://www.isri.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/). I am co-advised by [Brad Myers](https://www.cs.cmu.edu/~bam/), [Bogdan Vasilescu](https://bvasiles.github.io/), and [Vincent Hellendoorn](http://vhellendoorn.github.io/). I am also a member of the [Natural Programming Group](http://www.cs.cmu.edu/~NatProg/index.html), [STRUDEL](https://cmustrudel.github.io/), and [IPSUM Lab](https://ipsum-lab.github.io/).
 
 I do research at the intersection of Software Engineering, Artificial Intelligence, and Human Computer Interaction, to improve [API usability](http://www.cs.cmu.edu/~NatProg/papers/p62-myers-CACM-API_Usability.pdf). Specifically, my research develops methods and tools for 1) API designers to detect and summarize API usability issues, and 2) programmers to learn and use APIs efficiently and correctly.
 
