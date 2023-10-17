@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I’m Daye Nam and I'm a Software Engineering Ph.D. student at the [Institute for Software Research](https://www.isri.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/). I am co-advised by [Brad Myers](https://www.cs.cmu.edu/~bam/), [Bogdan Vasilescu](https://bvasiles.github.io/), and [Vincent Hellendoorn](http://vhellendoorn.github.io/). I am also a member of the [Natural Programming Group](http://www.cs.cmu.edu/~NatProg/index.html), [STRUDEL](https://cmustrudel.github.io/), and [IPSUM Lab](https://ipsum-lab.github.io/).
+I’m Daye Nam and I'm a Software Engineering Ph.D. student at [S3D (Software and Societal Systems Department)](https://s3d.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/). I am co-advised by [Brad Myers](https://www.cs.cmu.edu/~bam/), [Bogdan Vasilescu](https://bvasiles.github.io/), and [Vincent Hellendoorn](http://vhellendoorn.github.io/). I am also a member of the [Natural Programming Group](http://www.cs.cmu.edu/~NatProg/index.html), [STRUDEL](https://cmustrudel.github.io/), and [IPSUM Lab](https://ipsum-lab.github.io/).
 
 I design, build, and evaluate AI tools for developers using NLP techniques, while prioritizing the usefulness and usability of the AI tools. More specifically, I (1) conduct empirical studies to understand developers’ needs, (2) build and train machine learning models based on the insights gained from the studies, (3) use the resulting models to build tools for developers, and (4) evaluate them using HCI methods.
 
