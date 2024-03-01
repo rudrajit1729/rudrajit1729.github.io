@@ -186,6 +186,15 @@
           {%- if entry.source %}
             <a href="{{ entry.source }}" class="btn btn-sm z-depth-0" role="button">Source</a>
           {%- endif %}
+          {%- if entry.tool %}
+            <a href="{{ entry.tool }}" class="btn btn-sm z-depth-0" role="button">Tool</a>
+          {%- endif %}
+          {%- if entry.artifact %}
+            <a href="{{ entry.artifact }}" class="btn btn-sm z-depth-0" role="button">Artifact</a>
+          {%- endif %}
+
+
+
           </div>
 
           {% if entry.abstract -%}
