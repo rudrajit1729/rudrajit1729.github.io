@@ -6,7 +6,7 @@ title: Daye Nam # the website title (if blank, full name will be used instead)
 first_name: Daye
 middle_name: 
 last_name: Nam
-email: dayen@andrew.cmu.edu
+email: dnam1@uci.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A personal webpage of Daye Nam.
 footer_text: >
@@ -70,10 +70,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: namdy0429 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: daye_nam # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: daye-nam
 scholar_userid: STCUzF8AAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0009-0006-3846-6924
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons

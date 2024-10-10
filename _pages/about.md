@@ -7,18 +7,17 @@ permalink: /
 profile:
   align: right
   image: profile.jpg
-  address: >
-    <p>TCS 317</p>
-    <p>4665 Forbes Ave</p>
-    <p>Pittsburgh, PA 15206</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I’m Daye Nam and I'm a Software Engineering Ph.D. student at [S3D (Software and Societal Systems Department)](https://s3d.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/). I am co-advised by [Brad Myers](https://www.cs.cmu.edu/~bam/), [Bogdan Vasilescu](https://bvasiles.github.io/), and [Vincent Hellendoorn](http://vhellendoorn.github.io/). I am also a member of the [Natural Programming Group](http://www.cs.cmu.edu/~NatProg/index.html), [STRUDEL](https://cmustrudel.github.io/), and [IPSUM Lab](https://ipsum-lab.github.io/).
 
-I design, build, and evaluate AI tools for developers using NLP techniques, while prioritizing the usefulness and usability of the AI tools. More specifically, I (1) conduct empirical studies to understand developers’ needs, (2) build and train machine learning models based on the insights gained from the studies, (3) use the resulting models to build tools for developers, and (4) evaluate them using HCI methods.
+I will begin as an Assistant Professor at the University of California, Irvine, in Fall 2025. Currently, I am a visiting researcher at Google, working with [Satish Chandra](https://sites.google.com/site/schandraacmorg/).
 
-Prior to joining CMU, I completed my Master's degree in Computer Science from [University of Southern California](https://www.cs.usc.edu/), where I worked in the [Software Architecture Research Lab](https://softarch.usc.edu/) under the guidance of [Nenad Medvidović](https://softarch.usc.edu/~neno/). I received my Bachelor's degree at [Yonsei University](https://cs.yonsei.ac.kr:59290/eng/index.php) in Computer Science.
+I completed my Ph.D. at Carnegie Mellon University in May 2024. At CMU, I was fortunate to be advised by [Brad Myers](https://www.cs.cmu.edu/~bam/), [Bogdan Vasilescu](https://bvasiles.github.io/), and [Vincent Hellendoorn](http://vhellendoorn.github.io/). I received my M.S. degree from the University of Southern California, and B.S. degree from Yonsei University.
+
+My research focuses on designing, building, and evaluating AI tools for developers, with a strong emphasis on making these tools useful and usable. My ultimate goal is to empower programmers at all levels to write programs effectively and with greater control, aided by AI.
+
+**Prospective students**: I am actively seeking motivated students with strong backgrounds in software engineering, human-computer interaction, and/or natural language processing. If you are interested in working with me, [apply to the program](https://www.informatics.uci.edu/admissions/graduate-application-process/) and mention me as the faculty member of interest. Feel free to email me your CV and a brief description of your research interests as well.
