@@ -1,13 +1,36 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
-nav: false
+permalink: /research/
+title: Research
+nav: true
 nav_order: 3
 ---
 
-## GitHub users
+<p> <strong>Areas of Interest</strong>: Human-Computer/AI Interaction (HCI/HAI), Cognitive Science, AI, Inclusive Design, Software Engineering (SE) </p>
+
+
+<div style="text-align: justify;">
+
+My research investigates the <strong>socio-technical and cognitive aspects of human-AI collaboration in software development</strong>. I conduct <em> empirical studies to understand how developers engage with AI</em>, <em>design human-centered tools and interfaces to enhance user experience in AI-assisted software engineering (SE)</em>, and <em>evaluate these interventions through formative and summative studies</em>.  Adopting an interdisciplinary approach, I draw from software engineering, design and visualization, AI, cognitive science, and human-computer interaction to make AI-assisted SE more human-centered.
+
+I also focus on empowering developer teams by creating tools to enhance productivity, reduce cognitive load & technostress, and foster inclusive user experiences (UX) in AI-driven workflows.
+</div>
+
+<br>
+
+My **current projects** include:  
+
+- Trust and Alignment in Human-AI Interaction 
+- AI Governance for SE
+- Cognitive Impacts of AI in SE
+- Human-AI Interaction in Open Source Software Development
+- Inclusive UX in Human-AI Interaction
+- Cognitive & Socio-economic aware HCI
+
+If you are interested in research along these lines, send me an email.
+
+
+<!-- ## GitHub users
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -17,9 +40,9 @@ nav_order: 3
 </div>
 {% endif %}
 
----
+--- -->
 
-## GitHub Repositories
+<!-- ## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -27,4 +50,4 @@ nav_order: 3
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
-{% endif %}
+{% endif %} -->

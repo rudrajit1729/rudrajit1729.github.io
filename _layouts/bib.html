@@ -28,7 +28,11 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <div class="title">{{entry.title}}
+            {%- if entry.award %}
+              <span style="color: red; font-style: italic; font-weight: bold;">[{{ entry.award }}]</span>
+            {%- endif %}
+          </div>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
@@ -172,9 +176,9 @@
           {%- endif %}
           {%- if entry.slides %}
             {% if entry.slides contains '://' -%}
-            <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+            <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
             {%- else -%}
-            <a href="{{ entry.slides | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+            <a href="{{ entry.slides | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.website %}

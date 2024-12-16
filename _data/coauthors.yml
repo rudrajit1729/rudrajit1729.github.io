@@ -1,56 +1,55 @@
-"Myers":
-  - firstname: ["Brad", "Brad A."]
-    url: https://www.cs.cmu.edu/~bam/
+"Sarma":
+  - firstname: ["Anita"]
+    url: https://web.engr.oregonstate.edu/~sarmaa/
 
-"Vasilescu":
-  - firstname: ["Bogdan"]
-    url: https://bvasiles.github.io/
+"Burnett":
+  - firstname: ["Margaret", "Margaret M."]
+    url: https://web.engr.oregonstate.edu/~burnett/
 
-"Hellendoorn":
-  - firstname: ["Vincent"]
-    url: http://vhellendoorn.github.io/
+"Steinmacher":
+  - firstname: ["Igor"]
+    url: https://www.igor.pro.br/
 
-"Macvean": 
-  - firstname: ["Andrew"]
-    url: https://research.google/people/AndrewMacvean/
+"Gerosa":
+  - firstname: ["Marco"]
+    url: https://www.ime.usp.br/~gerosa/
 
-"Horvath":
-  - firstname: ["Amber"]
-    url: https://horvathaa.github.io/
+"Halder":
+  - firstname: ["Amiya"]
+    url: https://scholar.google.com/citations?user=HLHz2s0AAAAJ&hl=en&oi=ao
+  
+"Chatterjee":
+  - firstname: ["Amreeta"]
+    url: https://sites.google.com/oregonstate.edu/amreeta-chatterjee/home
 
-"Chandra":
-  - firstname: ["Satish"]
-    url: https://sites.google.com/site/schandraacmorg/
+"Trinkenreich":
+  - firstname: ["Bianca"]
+    url: https://biancatrink.github.io/
 
-"Lee":
-  - firstname: ["Youn Kyu"]
-    url: https://sites.google.com/view/younkyul/home
+"Pandita":
+  - firstname: ["Rahul"]
+    url: https://rahulpandita.me/
 
-"Kejriwal":
-  - firstname: ["Mayank"]
-    url: https://usc-isi-i2.github.io/kejriwal/
+"Kalliamvakou":
+  - firstname: ["Eirini"]
+    url: https://scholar.google.com/citations?user=10_jhUoAAAAJ&hl=en
 
-"Medvidovic":
-  - firstname: ["Nenad"]
-    url: https://softarch.usc.edu/~neno/
+"Morreale":
+  - firstname: ["Patricia"]
+    url: http://www.pmorreale.com/
 
-"Ray":
-  - firstname: ["Baishakhi"]
-    url: https://www.rayb.info/
+"Feng":
+  - firstname: ["Zixuan"]
+    url: https://zixuanfeng.github.io/zixuanfeng_page/
 
-"Hilton":
-  - firstname: ["Michael"]
-    url: https://www.cs.cmu.edu/~mhilton/
+"Sharma":
+  - firstname: ["Manoj K."]
+    url: https://scholar.google.com/citations?hl=en&user=Pk9dKAsAAAAJ&view_op=list_works&sortby=pubdate
 
-"Srinivasa Ragavan":
-  - firstname: ["Sruti"]
-    url: https://sruti-s-ragavan.com/
+"Liu":
+  - firstname: ["Dylan"]
+    url: https://www.linkedin.com/in/dylanliu04/
 
-"Ragavan":
-  - firstname: ["Sruti Srinivasa"]
-    url: https://sruti-s-ragavan.com/
-
-"Alipour":
-  - firstname: ["Amin"]
-    url: https://www.aminalipour.com/
-
+"Sanchez":
+  - firstname: ["Christopher", "Christopher A."]
+    url: https://sites.google.com/view/casanchezphd/home

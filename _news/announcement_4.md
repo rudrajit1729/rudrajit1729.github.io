@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-04-22  09:00:00-0400
+date: 2024-10-01  09:00:00-0400
 inline: true
 ---
 
-Our paper [Predictive Synthesis of API-Centric Code](https://arxiv.org/pdf/2201.03758.pdf) is accepted to [MAPS 2022](https://pldi22.sigplan.org/home/maps-2022).
+Our paper [Insights from the Frontline: GenAI Utilization Among Software Engineering Students] is accepted at [CSEET 2025](https://conf.researchr.org/home/icse-2025/cseet-2025). See you in Ottawa 🇨🇦!
