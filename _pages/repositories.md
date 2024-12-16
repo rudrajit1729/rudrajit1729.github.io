@@ -27,7 +27,7 @@ My **current projects** include:
 - Inclusive UX in Human-AI Interaction
 - Cognitive & Socio-economic aware HCI
 
-If you are interested in research along these lines, send me an email.
+If you are interested in research along these lines, send me an email at *choudhru[at]oregonstate[dot]edu*
 
 
 <!-- ## GitHub users
