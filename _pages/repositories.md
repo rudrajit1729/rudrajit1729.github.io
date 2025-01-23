@@ -15,7 +15,6 @@ My research investigates the <strong>socio-technical and cognitive aspects of hu
 
 I also focus on empowering developer teams by creating tools to enhance productivity, reduce cognitive load & technostress, and foster inclusive user experiences (UX) in AI-driven workflows.
 </div>
-
 <br>
 
 My **current projects** include:  
