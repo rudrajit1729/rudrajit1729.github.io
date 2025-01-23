@@ -23,7 +23,7 @@ My **current projects** include:
 - Trust and Alignment in Human-AI Interaction 
 - AI Governance for SE
 - Cognitive Impacts of AI in SE
-- Effects of Human-AI Teaming in Software Development
+- Human-AI Teaming in Software Development
 - Inclusive UX: Cognitive & Socio-economic aware HCI
 
 If you are interested in research along these lines, send me an email at *choudhru[at]oregonstate[dot]edu*
