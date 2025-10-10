@@ -6,23 +6,24 @@ nav: true
 nav_order: 3
 ---
 
-<p> <strong>Areas of Interest</strong>: Human-Computer/AI Interaction (HCI/HAI), Cognitive Science, AI, Inclusive Design, Software Engineering (SE) </p>
+<p> <strong>Areas of Interest</strong>: Human-Computer/AI Interaction (HCI/HAI), Cognitive Science, AI, UX Design, Software Engineering (SE) </p>
 
 
 <div style="text-align: justify;">
 
-My research investigates the <strong>socio-technical and cognitive aspects of human-AI collaboration in software development</strong>. I conduct <em> empirical studies to understand how developers engage with AI</em>, <em>design human-centered tools and interfaces to enhance user experience in AI-assisted software engineering (SE)</em>, and <em>evaluate these interventions through formative and summative studies</em>.  Adopting an interdisciplinary approach, I draw from software engineering, design and visualization, AI, cognitive science, and human-computer interaction to make AI-assisted SE more human-centered.
+My research investigates <strong>socio-technical and cognitive aspects of human-AI collaboration in software development</strong>. I conduct <em> empirical studies to understand how developers write software and engage with AI (where, why, and how they seek or limit support)</em>, <em>design human-centered tools and interfaces to enhance user experiences and productivity in AI-driven workflows</em>, and <em>evaluate these interventions through formative and summative studies</em>.  Adopting an interdisciplinary approach, I draw from design and visualization, AI, cognitive science, and human-computer interaction to make AI-assisted knowledge work more human-centered.
 
-I also focus on empowering developer teams by creating tools to enhance productivity, reduce cognitive load & technostress, and foster inclusive user experiences (UX) in AI-driven workflows.
+<br><br>
+I also focus on empowering students to be AI-savvy through interface and curricula design; positioning AI as a cognitive collaborator, adding verification and metacognitive scaffolds to curb over-reliance and promote reflection, and leveraging AI as a tool for thought.
 </div>
 <br>
 
 My **current projects** include:  
 
-- Trust and Alignment in Human-AI Interaction 
-- AI Governance for SE
-- Cognitive Impacts of AI in SE
+- Trust, Transparency, and Alignment in Human-AI Collaboration 
 - Human-AI Teaming in Software Development
+- Work Design for the AI Era: Safeguarding Agency, Craft, and Meaningful Work
+- Cognitive Impacts of AI in CS Education
 - Inclusive UX: Cognitive & Socio-economic aware HCI
 
 If you are interested in research along these lines, send me an email at *choudhru[at]oregonstate[dot]edu*

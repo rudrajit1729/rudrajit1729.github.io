@@ -26,9 +26,45 @@
   - firstname: ["Bianca"]
     url: https://biancatrink.github.io/
 
+"Miller":
+  - firstname: ["Courtney"]
+    url: https://courtney-e-miller.github.io/
+
+"Bird":
+  - firstname: ["Christian"]
+    url: https://www.microsoft.com/en-us/research/people/cbird/
+
+"Storey":
+  - firstname: ["Margaret-Anne", "Margaret Anne", "M. Anne"]
+    url: https://margaretstorey.com/
+
+"Murphy-Hill":
+  - firstname: ["Emerson"]
+    url: https://scholar.google.com/citations?user=9Kk7PNQAAAAJ&hl=en
+
+"DeLine":
+  - firstname: ["Robert", "Rob"]
+    url: https://www.microsoft.com/en-us/research/people/rdeline/
+
+"Badea":
+  - firstname: ["Carmen"]
+    url: https://www.microsoft.com/en-us/research/people/cabadea/
+
+"Butler":
+  - firstname: ["Jenna"]
+    url: https://www.microsoft.com/en-us/research/people/jennbu/
+
+"Houck":
+  - firstname: ["Brian"]
+    url: https://www.microsoft.com/en-us/research/people/bhouck/
+
 "Pandita":
   - firstname: ["Rahul"]
     url: https://rahulpandita.me/
+
+"Anderson":
+  - firstname: ["Andrew"]
+    url: https://research.ibm.com/people/andrew-anderson
 
 "Kalliamvakou":
   - firstname: ["Eirini"]
