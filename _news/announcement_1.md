@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-11-21 09:00:00-0400
+date: 2025-10-16 09:00:00-0400
 inline: true
 ---
 
-I gave an invited talk at [Colorado State University](https://www.colostate.edu/) on "Cognitive factors influencing trust and behavioral intentions towards Artificial Intelligence".
+New paper, ["Maybe We Need Some More Examples:" Individual and Team Drivers of Developer GenAI Tool Use](https://arxiv.org/pdf/2507.21280) accepted at ICSE 2026. See you in Rio 🇧🇷
