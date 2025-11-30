@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
   I am grateful to have been mentored by incredible researchers who have shaped my journey: <a href="https://web.engr.oregonstate.edu/~sarmaa/">Anita Sarma</a> and <a href="https://web.engr.oregonstate.edu/~burnett/">Margaret Burnett</a> for SE+HCAI, <a href="https://www.igor.pro.br/">Igor Steinmacher</a> and <a href="https://biancatrink.github.io/">Bianca Trinkenreich</a> for SE, <a href="https://sites.google.com/view/casanchezphd">Christopher Sanchez</a> for Cognitive Psychology, <a href="https://www.microsoft.com/en-us/research/people/cbird/">Christian Bird</a> and <a href="https://www.ime.usp.br/~gerosa/">Marco Gerosa</a> for SE+AI.
 
   <br><br>
-<strong>I am on industry research scientist job market (2025-26) seeking positions in Human-Centered AI, Developer-experiences, UX research, and related areas.</strong>
+<strong>I am on industry research scientist job market (2026-2027) seeking positions in Human-Centered AI, Developer-experiences, UX research, and related areas.</strong>
 
   <br><br>
   Have questions or want to chat? I’m always happy to connect with people—feel free to reach out!
