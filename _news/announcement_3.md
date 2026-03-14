@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-03-15 09:00:00-0400
+date: 2026-03-15 09:00:00-0400
 inline: true
 ---
 
-I’m honored to be appointed as [MOSIP Global Impact Research Fellow](https://www.mosip.io/) starting March 2025!
+I’m returning to Microsoft, as an Applied Science Intern starting June 2026!
