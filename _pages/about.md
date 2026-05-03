@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 
 
 <div style="text-align: justify;">
-  I’m Rudrajit (Rudy), a fourth-year Ph.D. student at <a href="https://engineering.oregonstate.edu/EECS">Oregon State University</a>, advised by <a href="https://web.engr.oregonstate.edu/~sarmaa/">Dr. Anita Sarma</a>. My research lies at the intersections of Human-Centered AI (HCAI), Software Engineering (SE), Cognitive Science, UX Design, and Artificial Intelligence (AI). Currently, I study (1) <strong><em>cognitive processes that influence human-AI interactions in SE</em></strong>, and (2) <strong><em>methods for designing human-centered interfaces for AI tools to improve user-experiences in AI-assisted software development.</em></strong> 
+  I’m Rudrajit (Rudy), a fourth-year Ph.D. student at <a href="https://engineering.oregonstate.edu/EECS">Oregon State University</a>, advised by <a href="https://web.engr.oregonstate.edu/~sarmaa/">Dr. Anita Sarma</a>. My research lies at the intersections of Human-Centered AI (HCAI), Software Engineering (SE), Cognitive Science, UX Design, and Artificial Intelligence (AI). Lately, I study (1) <strong><em>cognitive processes that shape human-AI interactions</em></strong>, and (2) <strong><em>methods for designing human-centered interfaces for AI tools to improve user-experiences in AI-assisted work.</em></strong> 
 
   <br><br>
   My goal is to empower developers and end-users with trustworthy, effective, and inclusive AI support, enabling them to work more efficiently, maintain control over AI, and minimize errors.
