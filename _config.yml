@@ -8,11 +8,11 @@ middle_name:
 last_name: Choudhuri
 email: choudhru@oregonstate.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A personal webpage of Rudrajit Choudhuri.
+  Rudrajit Choudhuri: mixed-methods researcher in Human-Centered AI, Software Engineering, and the Future of Work at Oregon State University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords:   # add your own keywords or leave empty
+keywords: human-centered AI, human-AI collaboration, software engineering, UX research, future of work, Oregon State University
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icon-RC-round.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -145,8 +145,8 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 4 # leave blank to include all the news in the `_news` folder
+news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+news_limit: # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -254,7 +254,7 @@ scholar:
   query: "@*"
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, tags, artifact, award, tool, dashboard, note]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit:  # leave blank to always show all authors

@@ -9,3 +9,7 @@ _site
 Gemfile.lock
 vendor
 
+vendor/
+.bundle/
+_site_local/
+_site_docker/

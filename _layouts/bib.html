@@ -1,7 +1,7 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="row">
+      <div class="row pub-entry" data-tags="{{ entry.tags | default: '' }}" data-year="{{ entry.year }}">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
@@ -30,9 +30,18 @@
           <!-- Title -->
           <div class="title">{{entry.title}}
             {%- if entry.award %}
-              <span style="color: red; font-style: italic; font-weight: bold;">[{{ entry.award }}]</span>
+              <span class="paper-award">[{{ entry.award }}]</span>
             {%- endif %}
           </div>
+          {%- if entry.tags %}
+          <div class="paper-tags">
+            {%- assign tag_list = entry.tags | split: "," -%}
+            {%- for t in tag_list -%}
+              {%- assign tt = t | strip -%}
+              <span class="paper-tag" data-tag="{{ tt }}">{{ tt }}</span>
+            {%- endfor -%}
+          </div>
+          {%- endif %}
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
@@ -182,7 +191,7 @@
             {%- endif %}
           {%- endif %}
           {%- if entry.website %}
-            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">{% if entry.website contains 'aka.ms' %}Dashboard{% else %}Website{% endif %}</a>
           {%- endif %}
           {%- if entry.video %}
             <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>

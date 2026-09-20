@@ -3,50 +3,29 @@ layout: page
 permalink: /research/
 title: Research
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
-<p> <strong>Areas of Interest</strong>: Human-Computer/AI Interaction (HCI/HAI), Cognitive Science, AI, UX Design, Software Engineering (SE) </p>
-
+<p><strong>Areas of Interest</strong>: Human-Centered AI (HCAI), Human-AI Collaboration, Future of Work, Software Engineering (SE), Cognitive Science, UX Research and Design</p>
 
 <div style="text-align: justify;">
 
-My research investigates <strong>socio-technical and cognitive aspects of human-AI collaboration in software development</strong>. I conduct <em> empirical studies to understand how developers write software and engage with AI (where, why, and how they seek or limit support)</em>, <em>design human-centered tools and interfaces to enhance user experiences and productivity in AI-driven workflows</em>, and <em>evaluate these interventions through formative and summative studies</em>.  Adopting an interdisciplinary approach, I draw from design and visualization, AI, cognitive science, and human-computer interaction to make AI-assisted knowledge work more human-centered.
+My research investigates the <strong>cognitive and socio-technical factors that shape human–AI collaboration</strong>, and uses what we learn to <strong>design human-centered AI tools for AI-native knowledge work</strong>. I run <em>large-scale mixed-methods studies</em> (surveys, interviews, field and lab studies, and controlled experiments with up to 2,000+ participants) to understand how developers and knowledge workers engage with AI: where, why, and how they seek or limit its support, what they are willing to delegate, and how trust, identity, accountability, and cognitive demands drive those choices. I then <em>translate findings into design frameworks, guidelines, and interfaces</em>, and <em>evaluate them through formative and summative studies</em>. I draw on cognitive science, HCI, UX design, work design, and AI to make AI-assisted work more trustworthy, effective, and inclusive.
 
 <br><br>
-I also focus on empowering students to be AI-savvy through interface and curricula design; positioning AI as a cognitive collaborator, adding verification and metacognitive scaffolds to curb over-reliance and promote reflection, and leveraging AI as a tool for thought.
+A second line of my work looks at <strong>AI in education</strong>: how routine reliance on generative AI reshapes students’ cognitive habits, and how interfaces and curricula can position AI as a cognitive collaborator, adding metacognitive scaffolds that curb over-reliance and keep reflection and critical thinking in the loop.
 </div>
 <br>
 
-My **current projects** include:  
+**Research themes**
 
-- Trust, Transparency, and Alignment in Human-AI Collaboration 
-- Human-AI Teaming in Software Development
+- Trust, Transparency, and Alignment in Human-AI Collaboration
 - Work Design for the AI Era: Safeguarding Agency, Craft, and Meaningful Work
+- Great Co-Workers and Work Etiquette in AI-Native Workplaces
+- AI Autonomy, Delegation, and Oversight in Agentic Workflows
+- Design Patterns and Guidelines for the UI/UX of AI
 - Cognitive Impacts of AI in CS Education
+- Game Design and Visualization Interventions for AI Literacy and Vibe Coding
 - Inclusive UX: Cognitive & Socio-economic aware HCI
 
-If you are interested in research along these lines, send me an email at *choudhru[at]oregonstate[dot]edu*
-
-
-<!-- ## GitHub users
-
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.html username=user %}
-  {% endfor %}
-</div>
-{% endif %}
-
---- -->
-
-<!-- ## GitHub Repositories
-
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.html repository=repo %}
-  {% endfor %}
-</div>
-{% endif %} -->
+If you are interested in research along these lines, send me an email at *choudhru[at]oregonstate[dot]edu*.
