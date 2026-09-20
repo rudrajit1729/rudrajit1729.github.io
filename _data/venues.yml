@@ -3,7 +3,7 @@ ICSE:        {url: "https://conf.researchr.org/series/icse", color: "#1f4e79"}
 ICSE-SEIP:   {url: "https://conf.researchr.org/series/icse", color: "#1f4e79"}
 ICSME:       {url: "https://conf.researchr.org/series/icsme", color: "#2e6f95"}
 TOSEM:       {url: "https://dl.acm.org/journal/tosem", color: "#7b2d26"}
-"ACM Queue": {url: "https://queue.acm.org/", color: "#7b2d26"}
+ACMQ:        {url: "https://queue.acm.org/", color: "#7b2d26"}
 EMSE:        {url: "https://link.springer.com/journal/10664", color: "#7b2d26"}
 ICER:        {url: "https://icer.acm.org/", color: "#3d6b35"}
 "CSEE&T":    {url: "https://conf.researchr.org/series/cseet", color: "#3d6b35"}
