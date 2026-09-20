@@ -8,6 +8,7 @@ EMSE:        {url: "https://link.springer.com/journal/10664", color: "#7b2d26"}
 ICER:        {url: "https://icer.acm.org/", color: "#3d6b35"}
 "CSEE&T":    {url: "https://conf.researchr.org/series/cseet", color: "#3d6b35"}
 Preprint:    {url: "https://arxiv.org/a/choudhuri_r_1", color: "#6c757d"}
+ASOC:        {url: "https://www.sciencedirect.com/journal/applied-soft-computing", color: "#7b2d26"}
 NCAA:        {url: "https://link.springer.com/journal/521", color: "#5a4a7a"}
 MTAA:        {url: "https://link.springer.com/journal/11042", color: "#5a4a7a"}
 CVIP:        {url: "https://cvip2023.iiitdmj.ac.in/", color: "#5a4a7a"}
