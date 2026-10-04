@@ -1,15 +1,10 @@
-_site
-.bundle
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-.DS_store
-.ruby-version
-.tweet-cache
-Gemfile.lock
-vendor
+.DS_Store
+__pycache__/
 
-vendor/
-.bundle/
+# leftovers from the old Jekyll setup (local only)
+_site/
 _site_local/
 _site_docker/
+.jekyll-cache/
+vendor/
+Gemfile.lock

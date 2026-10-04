@@ -1,0 +1,25 @@
+/* Industry page: one glass card per role. */
+.roles { display: grid; gap: 22px; }
+.role-card { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 2fr); gap: 0; overflow: hidden; }
+.role-card > div { padding: 30px; }
+.role-card > div + div { border-left: 1px solid var(--hairline); }
+.role-card .logo { width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; color: #fff; margin-bottom: 16px;
+  background: linear-gradient(135deg, var(--c, var(--accent)), color-mix(in srgb, var(--c, var(--accent)) 55%, #000)); box-shadow: 0 12px 26px -12px var(--c, var(--accent)); }
+.role-card .logo svg { width: 24px; height: 24px; }
+.role-card .org { font: 600 12px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--c, var(--accent)); }
+.role-card h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(28px, 3vw, 36px); line-height: 1.08; letter-spacing: -0.015em; margin: 8px 0 10px; }
+.role-card .when { font-size: 14px; color: var(--muted); }
+.role-card .mentors-line { font-size: 13.5px; color: var(--muted); margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--hairline); }
+.role-card .mentors-line b { color: var(--ink-2); font-weight: 560; }
+.role-card .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.role-card .chips span { font-size: 12.5px; font-weight: 600; padding: 5px 11px; border-radius: 999px; background: var(--glass-strong); border: 1px solid var(--hairline); color: var(--ink-2); }
+.role-card .chips span b { color: var(--ink); }
+.role-card ul.points { margin: 0 0 14px; padding-left: 18px; color: var(--muted); font-size: 15.5px; display: grid; gap: 8px; }
+.role-card ul.points strong { color: var(--ink); font-weight: 560; }
+.role-card .links { display: flex; flex-wrap: wrap; gap: 16px; font-size: 14px; font-weight: 560; }
+.role-card .links a { color: var(--ink-2); text-decoration: none; }
+.role-card .links a:hover { color: var(--accent); }
+@media (max-width: 860px) { .role-card { grid-template-columns: 1fr; } .role-card > div + div { border-left: 0; border-top: 1px solid var(--hairline); } .role-card > div { padding: 24px; } }
+.role-card { scroll-margin-top: 96px; }
+.role-card ul.points { font-size: 16.5px; }
+.role-card .chips span { font-size: 13.5px; }
