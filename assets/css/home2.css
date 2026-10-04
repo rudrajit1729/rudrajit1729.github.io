@@ -423,7 +423,7 @@ a.fieldlink { text-decoration: none; color: inherit; }
 /* ===================== Round 9: portrait flip card + bio dialog ===================== */
 /* The circular photo flips to a short bio (hover / focus / tap); the faces carry the circle. */
 .orbit { container-type: inline-size; }
-.orbit .photo.flip { overflow: visible; padding: 0; background: none; border: 0; box-shadow: none; perspective: 1400px; cursor: pointer; z-index: 3; }
+.orbit .photo.flip { overflow: visible; padding: 0; background: none; border: 0; box-shadow: none; perspective: 1400px; cursor: pointer; z-index: 1; }
 .flip-inner { position: absolute; inset: 0; transform-style: preserve-3d; transition: transform .75s cubic-bezier(.2,.7,.2,1); }
 .flip-front, .flip-back { position: absolute; inset: 0; border-radius: 50%; overflow: hidden; -webkit-backface-visibility: hidden; backface-visibility: hidden;
   border: 1px solid var(--glass-border); box-shadow: var(--shadow-lg); }
@@ -482,3 +482,5 @@ a.fieldlink { text-decoration: none; color: inherit; }
 .bio-actions .btn { padding: 10px 16px; font-size: 14px; }
 .bio-actions svg { width: 16px; height: 16px; }
 @media (max-width: 560px) { .bio-head, .bio-text, .bio-foot { padding-left: 20px; padding-right: 20px; } }
+/* Floating highlight cards always sit above the portrait */
+.portrait2 .float-card { z-index: 4; }
