@@ -39,6 +39,7 @@
     'AI in Education': '#30b0c7',
     'Cognitive Effects': '#7c5cd6',
     'Inclusive Design': '#e0578b',
+    'Interface Design': '#f2a516',
     'Open Source': '#2e9e4f',
     'Machine Learning & Deep Learning': '#f2a516',
     'Biomedical Image Processing': '#d9534f',
