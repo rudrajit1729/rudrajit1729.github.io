@@ -387,7 +387,9 @@
    "Human-AI Collaboration",
    "AI in Education"
   ],
-  "methods": []
+  "methods": [
+   "Controlled experiments"
+  ]
  },
  {
   "id": "chatterjee2024debugging",
