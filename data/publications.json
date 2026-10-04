@@ -40,7 +40,8 @@
   "slides": null,
   "selected": false,
   "tags": [
-   "Inclusive Design"
+   "Inclusive Design",
+   "Interface Design"
   ],
   "abstract": "Doing inclusive design in HCI practice can be labor-intensive, a costly barrier that some companies and HCI practitioners may be unwilling or unable to overcome. Yet, not doing inclusive design is costly too, in the form of UX barriers that disproportionately disadvantage under-served user populations. To address this problem, we introduce Apply-<x>Mag, an LLM-powered tool to support HCI practitioners' work to design their products inclusively to wide ranges of users. Apply-<x>Mag is general, supporting any inclusive design method that can be expressed as <x>Mags (i.e., using attribute ranges and heuristics). It is also effective: Empirical results with researcher and practitioner teams using various combinations of two <x>Mags on 7 products showed Apply-<x>Mag precision averaging 90-99% and recall averaging 82-89%. Further, its environmental costs were reasonable, costing about the same resources as 2-4 ordinary Google searches.",
   "methods": [
@@ -63,7 +64,8 @@
   "slides": null,
   "selected": false,
   "tags": [
-   "Human-AI Collaboration"
+   "Human-AI Collaboration",
+   "Interface Design"
   ],
   "abstract": "In agentic coding, developers shift from implementing changes themselves to specifying intent, evaluating the agent's work, and making approval decisions. However, delegating implementation can introduce cognitive debt that erodes project comprehension over time, constraining developers' ability to provide oversight. In this work, we investigate the role of persistent shared representations in supporting project comprehension and oversight of coding agents. We present Vibe-GUIDE, an agentic coding interface built around a structural, live, manipulable, and adaptive graph representation organized by functional modules. We evaluated our interface in a randomized between-subjects study comparing how 16 developers completed three cumulative coding tasks using our interface or a Chat-only baseline. We found that Vibe-GUIDE can support project comprehension and sustained task performance while keeping developers cognitively involved in oversight. These findings show how persistent shared representations can complement natural-language interaction and help developers maintain the understanding needed to oversee agent-generated changes as projects evolve.",
   "methods": [
@@ -407,7 +409,8 @@
   "selected": false,
   "tags": [
    "AI in Education",
-   "Inclusive Design"
+   "Inclusive Design",
+   "Interface Design"
   ],
   "methods": []
  },
@@ -643,7 +646,8 @@
   "selected": false,
   "tags": [
    "AI in Education",
-   "Inclusive Design"
+   "Inclusive Design",
+   "Interface Design"
   ],
   "methods": [
    "Interviews & field studies"
