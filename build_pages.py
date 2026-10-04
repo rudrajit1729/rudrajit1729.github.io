@@ -93,7 +93,7 @@ research = '''  <section class="page-hero wide reveal">
 
 # ---------------- Publications ----------------
 pubs = '''  <div class="page-hero reveal">
-    <h1><em>Publications</em>, by topic</h1>
+    <h1><em>Publications</em>, by research area</h1>
     <p>Search titles, authors, and venues, then narrow by research area, publication type, year, or award. Each paper links to its PDF or publisher page, with data, slides, and a one-click BibTeX citation where available. Citation counts are on <a href="https://scholar.google.com/citations?user=Pk9dKAsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
   </div>
 
