@@ -409,3 +409,11 @@ a.fieldlink { text-decoration: none; color: inherit; }
 .pub .vf { font-size: 14.5px; }
 .pub .actions a, .pub .actions button { font-size: 13.5px; }
 .chips.stack .chip { font-size: 14px; }
+
+/* Impact band with four cells */
+.impact.four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+@media (max-width: 980px) {
+  .impact.four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .impact.four .cell:last-child { grid-column: auto; border-left: 1px solid var(--hairline); }
+  .impact.four .cell:nth-last-child(-n+2) { border-bottom: 0; }
+}
