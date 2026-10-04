@@ -9,9 +9,9 @@
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css?v=42">
-<link rel="stylesheet" href="/assets/css/palettes.css?v=42">
-<link rel="stylesheet" href="/assets/css/home2.css?v=42">
+<link rel="stylesheet" href="/assets/css/style.css?v=43">
+<link rel="stylesheet" href="/assets/css/palettes.css?v=43">
+<link rel="stylesheet" href="/assets/css/home2.css?v=43">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
 </head>
 <body>
@@ -37,6 +37,7 @@
         <li><a href="https://www.linkedin.com/in/rudrajit-choudhuri/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.3 21 14.7V21h-4v-5.6c0-1.34-.03-3.06-1.86-3.06-1.87 0-2.15 1.46-2.15 2.96V21H9z"/></svg><span>LinkedIn</span></a></li>
         <li><a href="https://orcid.org/0000-0001-7168-2107" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/><text x="12" y="16" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="10" fill="var(--bg)">iD</text></svg><span>ORCID</span></a></li>
         <li><a href="https://github.com/rudrajit1729" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg><span>GitHub</span></a></li>
+        <li><a href="#bio" id="bio-pill" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg><span>Bio</span></a></li>
       </ul>
     </div>
 
@@ -46,7 +47,22 @@
         <div class="ring r1"></div>
         <div class="ring r2"><span class="sat"></span><span class="sat s2"></span></div>
         <div class="ring r3"></div>
-        <div class="photo"><img src="/assets/img/profile.jpg" alt="Portrait of Rudrajit Choudhuri" width="1239" height="1280"></div>
+        <div class="photo flip" id="flip" tabindex="0" role="button" aria-pressed="false" aria-label="Portrait of Rudrajit Choudhuri. Press to see a short bio.">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <img src="/assets/img/profile.jpg" alt="Portrait of Rudrajit Choudhuri" width="1239" height="1280">
+              <span class="flip-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8M21 3v5h-5M21 12a9 9 0 0 1-15.5 6.2L3 16M3 21v-5h5"/></svg>Bio</span>
+            </div>
+            <div class="flip-back">
+              <span class="eyebrow">About Rudrajit</span>
+              <p id="short-bio">Rudrajit Choudhuri figures out how people should work with AI, then designs for it. A human-centered AI researcher at Oregon State and two-time Microsoft intern, Rudrajit turns studies of 3,300+ people into design guidance that product teams adopt.</p>
+              <div class="flip-actions">
+                <button class="btn btn-primary" type="button" data-open-bio>Full bio</button>
+                <button class="btn btn-ghost" type="button" id="copy-short-bio">Copy</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <a class="float-card glass glass-strong o1" href="/industry/">
         <span class="ic" style="background:linear-gradient(135deg,var(--accent),var(--accent-2))"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></span>
@@ -223,11 +239,30 @@
             </ul>
     </div>
   </section>
+  <!-- Bio (opens from the "Bio" pill or the back of the portrait) -->
+  <dialog class="bio-dialog" id="bio" aria-labelledby="bio-title">
+    <div class="bio-head">
+      <div><span class="eyebrow">Bio</span><h2 id="bio-title">About Rudrajit</h2></div>
+      <button class="icon-btn" type="button" data-close aria-label="Close bio"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="bio-text" id="bio-text">
+      <p>Rudrajit Choudhuri is a human-centered AI researcher and Ph.D. candidate at Oregon State University who answers the questions every AI product team faces: when do people trust AI, when do they push back, and what does relying on it do to how they think? Rudrajit answers them at scale, with surveys, controlled experiments, and interviews spanning more than 3,300 developers, knowledge workers, and students, and turns the answers into design frameworks, guidelines, and LLM-based tools.</p>
+      <p>The work ships. At Microsoft Research, Rudrajit’s study of 860 developers specified 22 AI systems developers want built, and eight experiments with 2,000 developers showed that targeted friction gets people to verify AI output instead of over-relying on it. The Microsoft Research work earned two Distinguished Paper Awards (ICSE 2026, ICSME 2026) and guidance adopted by teams in AI for Healthcare, AI Ethics, and Copilot Bing Search. At Microsoft Tech Futures, Rudrajit studied 1,556 knowledge workers on what makes a great co-worker, human or AI, and built the Design Cookbook for UI/UX of AI: 80 patterns mapped to 21 human-factors challenges. As a Gates Foundation-funded MOSIP fellow, Rudrajit built a multi-agent LLM workflow that catches inclusivity bugs automatically with an 89% F1 score, at the resource cost of a few Google searches per screen.</p>
+      <p>Rudrajit has published 30+ papers at venues including ICSE, TOSEM, ICSME, and ICER, and the work has been featured on TV, radio, and in industry newsletters. Before the Ph.D., Rudrajit built machine learning and computer vision systems for medical imaging, satellite imaging, and robotics.</p>
+    </div>
+    <div class="bio-foot">
+      <span class="muted">For talks, panels, and press, feel free to use this bio.</span>
+      <div class="bio-actions">
+        <a class="btn btn-ghost" href="/assets/pdf/R_Choudhuri_CV.pdf" target="_blank" rel="noopener">Full CV</a>
+        <button class="btn btn-primary" type="button" id="copy-bio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>Copy bio</button>
+      </div>
+    </div>
+  </dialog>
 </main>
 
 <footer id="site-footer"></footer>
-<script src="/assets/js/site.js?v=42"></script>
-<script src="/assets/js/themes.js?v=42"></script>
-<script src="/assets/js/home2.js?v=42"></script>
+<script src="/assets/js/site.js?v=43"></script>
+<script src="/assets/js/themes.js?v=43"></script>
+<script src="/assets/js/home2.js?v=43"></script>
 </body>
 </html>
