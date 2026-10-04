@@ -19,9 +19,9 @@
   ],
   "abstract": "As knowledge work grows interdependent between humans and AI, we ask what makes a great co-worker in an AI-native workplace. To answer this, we conducted 22 interviews and a large-scale mixed-methods survey of 1,534 knowledge workers at a multinational technology company. We contribute BACI, a framework of 75 co-worker qualities that apply to humans and AI, spanning Benevolence, Ability, Cooperativeness, and Integrity. Comparing priorities for humans and AI identified 11 co-worker archetypes and revealed disagreement over whether AI should have warmth, take initiative, or own outcomes. We also show how priorities for these archetypes varied with workers' individual characteristics. Lastly, we contribute a taxonomy of AI work etiquette capturing the obligations co-workers expect of one another when preparing, sharing, and taking responsibility for AI-supported work. Based on these findings, we derive implications to inform worker-centric AI and workplace design.",
   "methods": [
-   "Surveys & structural equation modeling",
+   "Large-scale surveys",
    "Interviews & field studies",
-   "Mixed methods",
+   "Mixed methods analysis",
    "Design frameworks & guidelines"
   ]
  },
@@ -91,7 +91,7 @@
   ],
   "abstract": "Context: The growing adoption of AI-assisted development tools is changing how software teams collaborate, share knowledge, and coordinate, yet its consequences for team social dynamics remain largely unexplored. Gap: It is unclear whether AI adoption is associated with an increase or reduction in community smells,socio-technical anti-patterns reflecting coordination and communication breakdowns,and through which mechanisms. Method: Grounded in Transactive Memory Systems (TMS) theory, we validate instruments for HumanAI and HumanHuman interaction along two TMS dimensions, Specialization and Coordination, and test five PLS-SEM models on survey data from 152 software professionals using AI tools. Community smell constructs were derived from the literature and validated through expert surveys and factor analysis. Results: AI adoption relates to community smells not in a single way, but through mechanisms depending on the work. In specialization work, AI is associated with higher knowledge-sharing peer interaction, which is in turn associated with fewer smells. In coordination work, AI is directly associated with higher communication quality, complementing rather than replacing human interaction. Contributions: We provide an empirically validated, TMS-grounded model showing that the AIcommunity-smell relationship is contingent on the type of collaboration, with a reusable instrument and evidence-based implications for research and practice.",
   "methods": [
-   "Surveys & structural equation modeling",
+   "Large-scale surveys",
    "Design frameworks & guidelines"
   ]
  },
@@ -115,8 +115,8 @@
   ],
   "abstract": "As AI takes on more software work, the line between human and AI effort is shifting. Where developers draw that line around AI autonomy bears on how we design tools and roles that preserve meaningful work. Drawing on cognitive appraisal theory, work design, and automation research, we conducted a mixed-methods study of 448 professional developers at Microsoft to investigate their accepted levels of AI autonomy across software engineering work. Most developers accepted AI producing work under their oversight, although accepted autonomy varied substantively across tasks and individuals. Acceptance was lowest for identity-defining, human-facing, and design-oriented work, and higher among developers with more AI experience and risk tolerance. Task accountability was associated with lower odds of allowing AI to act on developers' behalf, whereas task identity was associated with lower odds of granting AI decision-making autonomy. Task demands had the opposite effect, increasing willingness to delegate decision-making to AI. Our findings suggest that preferences for AI autonomy reflect how developers cognitively experience their work, highlighting important considerations for designing meaningful work.",
   "methods": [
-   "Surveys & structural equation modeling",
-   "Mixed methods"
+   "Large-scale surveys",
+   "Mixed methods analysis"
   ]
  },
  {
@@ -159,7 +159,7 @@
   ],
   "abstract": "Developers spend roughly one-tenth of their workday writing code, yet most AI tooling targets that fraction. This paper asks what should be built for the rest. We surveyed 860 Microsoft developers to understand where they want AI support, and where they want it to stay out. Using a human-in-the-loop, multi-model council-based thematic analysis, we identify 22 AI systems that developers want built across five task categories. For each, we describe the problem it solves, what makes it hard to build, and the constraints developers place on its behavior. Our findings point to a growing right-shift burden in AI-assisted development: developers wanted systems that embed quality signals earlier in their workflow to keep pace with accelerating code generation, while enforcing explicit authority scoping, provenance, uncertainty signaling, and least-privilege access throughout. This tension reveals a pattern we call \"bounded delegation\": developers wanted AI to absorb the assembly work surrounding their craft, never the craft itself. That boundary tracks where they locate professional identity, suggesting that the value of AI tooling may lie as much in where and how precisely it stops as in what it does.",
   "methods": [
-   "Surveys & structural equation modeling",
+   "Large-scale surveys",
    "Design frameworks & guidelines"
   ]
  },
@@ -184,7 +184,7 @@
   ],
   "abstract": "Objectives: When students use generative AI in coursework, what are its persistent effects on their intellectual development? We investigate (RQ1-How) how students' trust in and routine use of genAI affect their cognitive engagement habits in STEM coursework, and (RQ2-Who) which students are particularly vulnerable to cognitive disengagement. Method: Drawing on dual-process, cognitive offloading, and automation bias theories, we developed a statistical model explaining how and to what extent students' trust-driven routine genAI use affected their cognitive engagement -- specifically, reflection, the need for understanding, and critical thinking in coursework, and how these effects differed across students' cognitive styles. We empirically evaluated this model using Partial Least Squares Structural Equation Modeling on survey data from 299 STEM students across five North American universities. Results: Students who trusted and routinely used genAI reported significantly lower cognitive engagement. Unexpectedly, students with higher technophilic motivations, risk tolerance, and computer self-efficacy -- traits often celebrated in STEM -- were more prone to these effects. Interestingly, students' prior experience with genAI or academia did not protect them from cognitively disengaging. Implications: Our findings suggest a potential cognitive debt cycle where routine genAI use weakens students' intellectual habits, potentially driving and escalating over-reliance. This poses challenges for curricula and genAI system design, requiring interventions that actively support cognitive engagement.",
   "methods": [
-   "Surveys & structural equation modeling"
+   "Large-scale surveys"
   ]
  },
  {
@@ -206,7 +206,7 @@
    "Trust & Adoption"
   ],
   "methods": [
-   "Surveys & structural equation modeling",
+   "Large-scale surveys",
    "Design frameworks & guidelines"
   ]
  },
@@ -228,7 +228,7 @@
    "Biomedical Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -251,8 +251,8 @@
   ],
   "abstract": "Generative AI is reshaping software work, yet we lack clear guidance on where developers most need support and how to design it responsibly. We report a large-scale, mixed-methods study of N=860 developers examining where, why, and how they seek or limit AI help across SE tasks. Using cognitive appraisal theory, we provide the first empirically validated mapping of developers' task appraisals to AI adoption patterns and Responsible AI (RAI) priorities. Appraisals predict AI openness and use, revealing distinct patterns: strong current use and demand for improvement in core work (e.g., coding, testing); high demand to reduce toil (e.g., documentation, operations); and clear limits for identity- and relationship-centric work (e.g., mentoring). RAI priorities vary by context: reliability and security for systems-facing tasks; transparency, alignment, and steerability to maintain control; and fairness and inclusiveness for human-facing work. Our results offer concrete, contextual guidance for delivering AI where it matters to developers and their work.",
   "methods": [
-   "Surveys & structural equation modeling",
-   "Mixed methods",
+   "Large-scale surveys",
+   "Mixed methods analysis",
    "Design frameworks & guidelines"
   ]
  },
@@ -297,7 +297,7 @@
    "Inclusive Design"
   ],
   "methods": [
-   "Surveys & structural equation modeling"
+   "Large-scale surveys"
   ]
  },
  {
@@ -320,7 +320,7 @@
   ],
   "abstract": "Generative AI (genAI) tools, such as ChatGPT or Copilot, are advertised to improve developer productivity and are being integrated into software development. However, misaligned trust, skepticism, and usability concerns can impede the adoption of such tools. Research also indicates that AI can be exclusionary, failing to support diverse users adequately. One such aspect of diversity is cognitive diversity -- variations in users' cognitive styles -- that leads to divergence in perspectives and interaction styles. When an individual's cognitive style is unsupported, it creates barriers to technology adoption. Therefore, to understand how to effectively integrate genAI tools into software development, it is first important to model what factors affect developers' trust and intentions to adopt genAI tools in practice? We developed a theoretically grounded statistical model to (1) identify factors that influence developers' trust in genAI tools and (2) examine the relationship between developers' trust, cognitive styles, and their intentions to use these tools in their work. We surveyed software developers (N=238) at two major global tech organizations: GitHub Inc. and Microsoft; and employed Partial Least Squares-Structural Equation Modeling (PLS-SEM) to evaluate our model. Our findings reveal that genAI's system/output quality, functional value, and goal maintenance significantly influence developers' trust in these tools. Furthermore, developers' trust and cognitive styles influence their intentions to use these tools in their work. We offer practical suggestions for designing genAI tools for effective use and inclusive user experience.",
   "methods": [
-   "Surveys & structural equation modeling"
+   "Large-scale surveys"
   ]
  },
  {
@@ -343,7 +343,7 @@
   ],
   "abstract": "The sustainability of open source software (OSS) projects hinges on contributor retention. Interpersonal challenges can inhibit a feeling of welcomeness among contributors, particularly from underrepresented groups, which impacts their decision to continue with the project. How much this impact is, varies among individuals, underlining the importance of a thorough understanding of their effects. Here, we investigate the effects of interpersonal challenges on the sense of welcomeness among diverse populations within OSS, through the diversity lenses of gender, race, and (dis)ability. We analyzed the large-scale Linux Foundation Diversity and Inclusion survey (n = 706) to model a theoretical framework linking interpersonal challenges with the sense of welcomeness through Structural Equation Models Partial Least Squares (PLS-SEM). We then examine the model to identify the impact of these challenges on different demographics through Multi-Group Analysis (MGA). Finally, we conducted a regression analysis to investigate how differently people from different demographics experience different types of interpersonal challenges. Our findings confirm the negative association between interpersonal challenges and the feeling of welcomeness in OSS, with this relationship being more pronounced among gender minorities and people with disabilities. We found that different challenges have unique impacts on how people feel welcomed, with variations across gender, race, and disability groups. We also provide evidence that people from gender minorities and with disabilities are more likely to experience interpersonal challenges than their counterparts, especially when we analyze stalking, sexual harassment, and doxxing. Our insights benefit OSS communities, informing potential strategies to improve the landscape of interpersonal relationships, ultimately fostering more inclusive and welcoming communities.",
   "methods": [
-   "Surveys & structural equation modeling",
+   "Large-scale surveys",
    "Design frameworks & guidelines"
   ]
  },
@@ -431,7 +431,7 @@
    "Quantum Deep Learning"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -454,7 +454,7 @@
   ],
   "methods": [
    "Design frameworks & guidelines",
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -475,7 +475,7 @@
    "Biomedical Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -497,7 +497,7 @@
    "Computer Vision & Robotics"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -518,7 +518,7 @@
    "Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -539,7 +539,7 @@
    "Biomedical Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -560,7 +560,7 @@
    "Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -581,7 +581,7 @@
    "Biomedical Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -602,7 +602,7 @@
    "Biomedical Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -624,7 +624,7 @@
    "Computer Vision & Robotics"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -667,7 +667,7 @@
    "Biomedical Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -688,7 +688,7 @@
    "Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -709,7 +709,7 @@
    "Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -730,7 +730,7 @@
    "Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  },
  {
@@ -752,7 +752,7 @@
    "Biomedical Image Processing"
   ],
   "methods": [
-   "Algorithm design for ML & computer vision"
+   "Algorithm design, machine learning, and computer vision"
   ]
  }
 ]

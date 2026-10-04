@@ -2,7 +2,7 @@
 Run: python3 build_pages.py"""
 import pathlib, re
 ROOT = pathlib.Path(__file__).parent
-V = "33"
+V = "34"
 FAV = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E"
        "%3Cstop offset='0' stop-color='%230a6cff'/%3E%3Cstop offset='1' stop-color='%235e5ce6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='16' fill='url(%23g)'/%3E"
        "%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E")
@@ -57,7 +57,7 @@ research = '''  <section class="page-hero wide reveal">
     <div class="approach glass">
       <span class="label">How I work</span>
       <ul>
-        <li><a href="/publications/?method=Surveys%20%26%20structural%20equation%20modeling">Surveys &amp; structural equation modeling</a></li><li><a href="/publications/?method=Controlled%20experiments">Controlled experiments</a></li><li><a href="/publications/?method=Interviews%20%26%20field%20studies">Interviews &amp; field studies</a></li><li><a href="/publications/?method=Mixed%20methods">Mixed methods</a></li><li><a href="/publications/?method=Design%20frameworks%20%26%20guidelines">Design frameworks &amp; guidelines</a></li><li><a href="/publications/?method=LLM-based%20tools%20%26%20evaluation">LLM-based tools &amp; evaluation</a></li><li><a href="/publications/?method=Algorithm%20design%20for%20ML%20%26%20computer%20vision">Algorithm design for ML &amp; computer vision</a></li>
+        <li><a href="/publications/?method=Large-scale%20surveys">Large-scale surveys</a></li><li><a href="/publications/?method=Controlled%20experiments">Controlled experiments</a></li><li><a href="/publications/?method=Interviews%20%26%20field%20studies">Interviews &amp; field studies</a></li><li><a href="/publications/?method=Mixed%20methods%20analysis">Mixed methods analysis</a></li><li><a href="/publications/?method=Design%20frameworks%20%26%20guidelines">Design frameworks &amp; guidelines</a></li><li><a href="/publications/?method=LLM-based%20tools%20%26%20evaluation">LLM-based tools &amp; evaluation</a></li><li><a href="/publications/?method=Algorithm%20design%2C%20machine%20learning%2C%20and%20computer%20vision">Algorithm design, machine learning, and computer vision</a></li>
       </ul>
     </div>
   </section>
