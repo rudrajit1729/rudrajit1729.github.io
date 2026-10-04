@@ -373,7 +373,9 @@ html { overflow-x: clip; }
 .mentors2 .stack .av:first-child { margin-left: 0; }
 
 /* ===================== Round 8: wider layout, larger text, logo ===================== */
-:root { --maxw: 1320px; }
+:root { --maxw: 1240px; }
+/* Breathing room on both sides, like asarma.github.io, wider on large screens */
+.wrap { width: min(var(--maxw), 100% - 2 * clamp(16px, 5vw, 64px)); }
 body { font-size: 17.5px; }
 .brand-logo { width: 32px; height: 32px; border-radius: 50%; display: block; box-shadow: 0 4px 12px -4px rgba(0,0,0,.35); }
 .nav-links a { font-size: 15px; }
