@@ -44,7 +44,7 @@ window.THEMES = [
     id: 'design', fields: ['Interface Design'], icon: ICON.design,
     c: { graphite: '#f2a516' },
     title: 'Designing multi-agent workflows and interfaces for AI',
-    short: 'How do we design human-centered and inclusive interfaces and multi-agent workflows for AI tools, from oversight and cognitive-forcing patterns to automated inclusivity checkers and a design cookbook for the UI/UX of AI?',
+    short: 'How do we design AI interfaces and agent workflows that keep people in control and are inclusive of diverse users?',
     tags: ['UI/UX of AI', 'Multi-agent workflows', 'Inclusive design'],
     body: 'I turn empirical findings into design: patterns, guidelines, and tools for human-centered and inclusive AI interfaces. This includes a design cookbook of 80 UI/UX patterns for AI, mapped to 21 human-factors challenges, and multi-agent LLM workflows that find inclusivity bugs automatically.',
     questions: ['Which UI/UX patterns help people work well with AI?', 'How can we detect and fix inclusivity bugs automatically?', 'How do we design for diverse cognitive styles and socio-economic contexts?'],
