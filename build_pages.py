@@ -2,7 +2,7 @@
 Run: python3 build_pages.py"""
 import pathlib, re
 ROOT = pathlib.Path(__file__).parent
-V = "40"
+V = "41"
 FAV = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E"
        "%3Cstop offset='0' stop-color='%230a6cff'/%3E%3Cstop offset='1' stop-color='%235e5ce6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='16' fill='url(%23g)'/%3E"
        "%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E")
@@ -46,7 +46,7 @@ TROPHY = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-widt
 # ---------------- Research ----------------
 research = '''  <section class="page-hero wide reveal">
     <h1>Human-centered AI for <em>AI-native work</em></h1>
-    <p>I investigate the <strong>cognitive and socio-technical factors that shape human–AI collaboration</strong>, and use what I learn to <strong>design human-centered AI tools for AI-native knowledge work</strong>. Specifically, I run <strong>large-scale mixed-methods studies</strong> to understand where, why, and how knowledge workers seek or limit AI support, what they are willing to delegate, and how trust, identity, accountability, and cognitive demands drive those choices. I then <strong>translate these findings into design frameworks and guidelines</strong>, and evaluate them with knowledge workers. Another line of my work looks at <strong>AI in education</strong>: how routine reliance on AI reshapes students’ cognitive habits, and how interfaces and curricula can keep judgment and critical thinking in the loop.</p>
+    <p>I investigate the <strong>cognitive and socio-technical factors that shape human–AI collaboration</strong>, and use what I learn to <strong>design human-centered AI tools for AI-native knowledge work</strong>. Specifically, I run <strong>large-scale mixed-methods studies</strong> to understand where, why, and how knowledge workers seek or limit AI support, what they are willing to delegate, and how trust, identity, accountability, and cognitive demands drive those choices. I then <strong>translate these findings into design frameworks and guidelines</strong>, and evaluate them with knowledge workers. Another line of my work looks at <strong>AI in education</strong>: how routine reliance on AI reshapes <strong>students’ cognitive habits</strong>, and how <strong>interfaces and curricula</strong> can keep <strong>judgment and critical thinking</strong> in the loop.</p>
     <div class="areas"><span class="label">Fields</span>
     <ul class="fields" aria-label="Research areas">
       <li><a href="/publications/?field=Human-AI%20Collaboration%7CTrust%20%26%20Adoption%7CInclusive%20Design">Human-Centered AI</a></li><li><a href="/publications/?field=Cognitive%20Effects%7CTrust%20%26%20Adoption">Cognitive Science</a></li><li><a href="/publications/?field=AI%20in%20Education">CS Education</a></li><li><a href="/publications/?field=Human-AI%20Collaboration%7COpen%20Source%7CFuture%20of%20Work%7CTrust%20%26%20Adoption">Software Engineering</a></li><li><a href="/publications/?field=Future%20of%20Work">Future of Work</a></li><li><a href="/publications/?field=Machine%20Learning%20%26%20Deep%20Learning%7CBiomedical%20Image%20Processing%7CImage%20Processing%7CComputer%20Vision%20%26%20Robotics%7CQuantum%20Deep%20Learning">Machine Learning &amp; Computer Vision</a></li>
