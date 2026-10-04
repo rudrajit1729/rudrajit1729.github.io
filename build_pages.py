@@ -2,7 +2,7 @@
 Run: python3 build_pages.py"""
 import pathlib, re
 ROOT = pathlib.Path(__file__).parent
-V = "31"
+V = "33"
 FAV = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E"
        "%3Cstop offset='0' stop-color='%230a6cff'/%3E%3Cstop offset='1' stop-color='%235e5ce6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='16' fill='url(%23g)'/%3E"
        "%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E")
@@ -93,7 +93,7 @@ research = '''  <section class="page-hero wide reveal">
 
 # ---------------- Publications ----------------
 pubs = '''  <div class="page-hero reveal">
-    <h1><em>Publications</em>, by research area</h1>
+    <h1>Publications, by <em>research area</em></h1>
     <p>Search titles, authors, and venues, then narrow by research area, publication type, year, or award. Each paper links to its PDF or publisher page, with data, slides, and a one-click BibTeX citation where available. Citation counts are on <a href="https://scholar.google.com/citations?user=Pk9dKAsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
   </div>
 
