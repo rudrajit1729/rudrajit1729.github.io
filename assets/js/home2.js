@@ -133,3 +133,44 @@
     track.scrollBy({ left: step * Number(b.dataset.dir) * 2, behavior: 'smooth' });
   }));
 })();
+
+/* Portrait flip card + bio dialog (same pattern as asarma.github.io) */
+(function () {
+  const flip = document.getElementById('flip');
+  const dlg = document.getElementById('bio');
+  if (!flip || !dlg) return;
+  const small = matchMedia('(max-width: 900px)');   // circle is too small for text: open the full bio instead
+  const setFlip = on => { flip.classList.toggle('is-flipped', on); flip.setAttribute('aria-pressed', String(on)); };
+  const openBio = e => { e?.preventDefault(); dlg.showModal ? dlg.showModal() : dlg.setAttribute('open', ''); };
+
+  flip.addEventListener('click', e => {
+    if (e.target.closest('button')) return;
+    if (small.matches) { openBio(e); return; }
+    setFlip(!flip.classList.contains('is-flipped'));
+  });
+  flip.addEventListener('keydown', e => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target === flip) { e.preventDefault(); setFlip(!flip.classList.contains('is-flipped')); }
+  });
+
+  document.getElementById('bio-pill')?.addEventListener('click', openBio);
+  document.querySelectorAll('[data-open-bio]').forEach(b => b.addEventListener('click', openBio));
+  dlg.querySelector('[data-close]')?.addEventListener('click', () => dlg.close());
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });   // click outside the panel
+  if (location.hash === '#bio') openBio();
+
+  async function copy(text, btn) {
+    let ok = false;
+    try { await navigator.clipboard.writeText(text); ok = true; } catch (err) {
+      const ta = Object.assign(document.createElement('textarea'), { value: text });
+      ta.style.cssText = 'position:fixed;opacity:0'; (dlg.open ? dlg : document.body).appendChild(ta); ta.select();
+      try { ok = document.execCommand('copy'); } catch (_) {}
+      ta.remove();
+    }
+    const html = btn.innerHTML; btn.textContent = ok ? 'Copied ✓' : 'Select text to copy';
+    setTimeout(() => { btn.innerHTML = html; }, 2000);
+  }
+  document.getElementById('copy-short-bio')?.addEventListener('click', e =>
+    copy(document.getElementById('short-bio').textContent.trim(), e.currentTarget));
+  document.getElementById('copy-bio')?.addEventListener('click', e =>
+    copy([...document.querySelectorAll('#bio-text p')].map(p => p.textContent.trim()).join('\n\n'), e.currentTarget));
+})();
