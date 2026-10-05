@@ -485,3 +485,5 @@ a.fieldlink { text-decoration: none; color: inherit; }
 /* Floating highlight cards always sit above the portrait */
 .portrait2 .float-card { z-index: 4; }
 .bio-head .eyebrow::before { display: none; }
+/* "About Rudrajit" on the back of the portrait: italic serif, like the name in the hero */
+.flip-back .eyebrow { text-transform: none; letter-spacing: 0; font-family: var(--serif); font-style: italic; font-weight: 400; font-size: clamp(17px, 4.2cqi, 22px); line-height: 1.1; }
