@@ -186,8 +186,7 @@
   ],
   "abstract": "Objectives: When students use generative AI in coursework, what are its persistent effects on their intellectual development? We investigate (RQ1-How) how students' trust in and routine use of genAI affect their cognitive engagement habits in STEM coursework, and (RQ2-Who) which students are particularly vulnerable to cognitive disengagement. Method: Drawing on dual-process, cognitive offloading, and automation bias theories, we developed a statistical model explaining how and to what extent students' trust-driven routine genAI use affected their cognitive engagement -- specifically, reflection, the need for understanding, and critical thinking in coursework, and how these effects differed across students' cognitive styles. We empirically evaluated this model using Partial Least Squares Structural Equation Modeling on survey data from 299 STEM students across five North American universities. Results: Students who trusted and routinely used genAI reported significantly lower cognitive engagement. Unexpectedly, students with higher technophilic motivations, risk tolerance, and computer self-efficacy -- traits often celebrated in STEM -- were more prone to these effects. Interestingly, students' prior experience with genAI or academia did not protect them from cognitively disengaging. Implications: Our findings suggest a potential cognitive debt cycle where routine genAI use weakens students' intellectual habits, potentially driving and escalating over-reliance. This poses challenges for curricula and genAI system design, requiring interventions that actively support cognitive engagement.",
   "methods": [
-   "Large-scale surveys",
-   "Mixed methods analysis"
+   "Large-scale surveys"
   ]
  },
  {
@@ -417,7 +416,9 @@
    "Inclusive Design",
    "Interface Design"
   ],
-  "methods": []
+  "methods": [
+   "Mixed methods analysis"
+  ]
  },
  {
   "id": "choudhuri2023brain",
