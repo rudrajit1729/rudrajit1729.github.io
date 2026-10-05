@@ -484,3 +484,4 @@ a.fieldlink { text-decoration: none; color: inherit; }
 @media (max-width: 560px) { .bio-head, .bio-text, .bio-foot { padding-left: 20px; padding-right: 20px; } }
 /* Floating highlight cards always sit above the portrait */
 .portrait2 .float-card { z-index: 4; }
+.bio-head .eyebrow::before { display: none; }
