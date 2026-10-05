@@ -186,7 +186,8 @@
   ],
   "abstract": "Objectives: When students use generative AI in coursework, what are its persistent effects on their intellectual development? We investigate (RQ1-How) how students' trust in and routine use of genAI affect their cognitive engagement habits in STEM coursework, and (RQ2-Who) which students are particularly vulnerable to cognitive disengagement. Method: Drawing on dual-process, cognitive offloading, and automation bias theories, we developed a statistical model explaining how and to what extent students' trust-driven routine genAI use affected their cognitive engagement -- specifically, reflection, the need for understanding, and critical thinking in coursework, and how these effects differed across students' cognitive styles. We empirically evaluated this model using Partial Least Squares Structural Equation Modeling on survey data from 299 STEM students across five North American universities. Results: Students who trusted and routinely used genAI reported significantly lower cognitive engagement. Unexpectedly, students with higher technophilic motivations, risk tolerance, and computer self-efficacy -- traits often celebrated in STEM -- were more prone to these effects. Interestingly, students' prior experience with genAI or academia did not protect them from cognitively disengaging. Implications: Our findings suggest a potential cognitive debt cycle where routine genAI use weakens students' intellectual habits, potentially driving and escalating over-reliance. This poses challenges for curricula and genAI system design, requiring interventions that actively support cognitive engagement.",
   "methods": [
-   "Large-scale surveys"
+   "Large-scale surveys",
+   "Mixed methods analysis"
   ]
  },
  {
@@ -209,6 +210,7 @@
   ],
   "methods": [
    "Large-scale surveys",
+   "Mixed methods analysis",
    "Design frameworks & guidelines"
   ]
  },
@@ -322,7 +324,8 @@
   ],
   "abstract": "Generative AI (genAI) tools, such as ChatGPT or Copilot, are advertised to improve developer productivity and are being integrated into software development. However, misaligned trust, skepticism, and usability concerns can impede the adoption of such tools. Research also indicates that AI can be exclusionary, failing to support diverse users adequately. One such aspect of diversity is cognitive diversity -- variations in users' cognitive styles -- that leads to divergence in perspectives and interaction styles. When an individual's cognitive style is unsupported, it creates barriers to technology adoption. Therefore, to understand how to effectively integrate genAI tools into software development, it is first important to model what factors affect developers' trust and intentions to adopt genAI tools in practice? We developed a theoretically grounded statistical model to (1) identify factors that influence developers' trust in genAI tools and (2) examine the relationship between developers' trust, cognitive styles, and their intentions to use these tools in their work. We surveyed software developers (N=238) at two major global tech organizations: GitHub Inc. and Microsoft; and employed Partial Least Squares-Structural Equation Modeling (PLS-SEM) to evaluate our model. Our findings reveal that genAI's system/output quality, functional value, and goal maintenance significantly influence developers' trust in these tools. Furthermore, developers' trust and cognitive styles influence their intentions to use these tools in their work. We offer practical suggestions for designing genAI tools for effective use and inclusive user experience.",
   "methods": [
-   "Large-scale surveys"
+   "Large-scale surveys",
+   "Mixed methods analysis"
   ]
  },
  {
@@ -346,6 +349,7 @@
   "abstract": "The sustainability of open source software (OSS) projects hinges on contributor retention. Interpersonal challenges can inhibit a feeling of welcomeness among contributors, particularly from underrepresented groups, which impacts their decision to continue with the project. How much this impact is, varies among individuals, underlining the importance of a thorough understanding of their effects. Here, we investigate the effects of interpersonal challenges on the sense of welcomeness among diverse populations within OSS, through the diversity lenses of gender, race, and (dis)ability. We analyzed the large-scale Linux Foundation Diversity and Inclusion survey (n = 706) to model a theoretical framework linking interpersonal challenges with the sense of welcomeness through Structural Equation Models Partial Least Squares (PLS-SEM). We then examine the model to identify the impact of these challenges on different demographics through Multi-Group Analysis (MGA). Finally, we conducted a regression analysis to investigate how differently people from different demographics experience different types of interpersonal challenges. Our findings confirm the negative association between interpersonal challenges and the feeling of welcomeness in OSS, with this relationship being more pronounced among gender minorities and people with disabilities. We found that different challenges have unique impacts on how people feel welcomed, with variations across gender, race, and disability groups. We also provide evidence that people from gender minorities and with disabilities are more likely to experience interpersonal challenges than their counterparts, especially when we analyze stalking, sexual harassment, and doxxing. Our insights benefit OSS communities, informing potential strategies to improve the landscape of interpersonal relationships, ultimately fostering more inclusive and welcoming communities.",
   "methods": [
    "Large-scale surveys",
+   "Mixed methods analysis",
    "Design frameworks & guidelines"
   ]
  },
@@ -390,7 +394,8 @@
    "AI in Education"
   ],
   "methods": [
-   "Controlled experiments"
+   "Controlled experiments",
+   "Mixed methods analysis"
   ]
  },
  {
