@@ -2,7 +2,7 @@
 Run: python3 build_pages.py"""
 import pathlib, re
 ROOT = pathlib.Path(__file__).parent
-V = "47"
+V = "50"
 FAV = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E"
        "%3Cstop offset='0' stop-color='%230a6cff'/%3E%3Cstop offset='1' stop-color='%235e5ce6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='16' fill='url(%23g)'/%3E"
        "%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E")
@@ -222,34 +222,34 @@ talks = f'''  <section class="page-hero reveal">
     <p>Coverage on TV, radio, and in the news, invited talks with slides, industry newsletter features, and awards.</p>
   </section>
 
-  <section>
+  <section id="media">
     <div class="section-head reveal"><h2>On TV, radio &amp; in the news</h2></div>
     <div class="media-grid center-last">
 {media_html}
     </div>
   </section>
 
-  <section>
+  <section id="invited-talks">
     <div class="section-head reveal"><h2>Invited talks</h2></div>
     <div class="talk-grid">
 {talks_html}
     </div>
   </section>
 
-  <section>
+  <section id="newsletters">
     <div class="section-head reveal"><h2>Industry newsletters</h2></div>
     <div class="media-grid center-last">
 {ind_cards}
     </div>
   </section>
 
-  <section>
+  <section id="awards">
     <div class="section-head reveal"><h2>Awards &amp; honors</h2></div>
     <div class="award-grid">
 {award_cards}
     </div>
   </section>'''
-(ROOT / "talks" / "index.html").write_text(page("Talks & Media", "Invited talks, awards, and media coverage of Rudrajit Choudhuri's research.", talks, ("talks",)))
+(ROOT / "talks" / "index.html").write_text(page("Talks, Awards & Media", "Invited talks, awards, and media coverage of Rudrajit Choudhuri's research.", talks, ("talks",)))
 print("wrote research, publications, talks")
 
 # ---------------- 404 ----------------

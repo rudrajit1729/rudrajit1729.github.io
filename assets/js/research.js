@@ -29,5 +29,5 @@
   };
   document.getElementById('theme-list').innerHTML = [...window.THEMES, window.EARLIER].map(block).join('');
   setupReveal();
-  if (location.hash) { const el = document.querySelector(location.hash); if (el) setTimeout(() => el.scrollIntoView({ block: 'start' }), 60); }
+  if (location.hash) { const el = document.querySelector(location.hash); if (el) setTimeout(() => el.scrollIntoView({ block: 'start', behavior: 'instant' }), 60); }
 })();

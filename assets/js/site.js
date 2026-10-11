@@ -13,7 +13,7 @@
     ['/research/', 'Research', NAV_ICON.research],
     ['/publications/', 'Publications', NAV_ICON.pubs],
     ['/industry/', 'Industry', NAV_ICON.industry],
-    ['/talks/', 'Talks & Media', NAV_ICON.talks],
+    ['/talks/', 'Talks, Awards & Media', NAV_ICON.talks],
     ['/assets/pdf/R_Choudhuri_CV.pdf', 'CV', NAV_ICON.cv],
   ];
 
@@ -165,3 +165,12 @@
   wireLinkedIn();
   setupReveal();
 })();
+
+/* Deep links (/talks/#awards, /industry/#mosip): jump straight to the section once the page has laid out */
+function jumpToHash() {
+  if (!location.hash) return;
+  const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+  if (el && el.tagName !== 'DIALOG') el.scrollIntoView({ block: 'start', behavior: 'instant' });
+}
+window.addEventListener('load', jumpToHash);
+window.addEventListener('hashchange', jumpToHash);
