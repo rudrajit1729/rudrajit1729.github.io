@@ -190,7 +190,7 @@ AWARDS = [
  ("2025", False, "MOSIP Global Impact Inclusive Research Fellowship", "Gates Foundation-funded"),
  ("2025", False, "OpenAI Researcher Access Program Grant", "PI"),
  ("2024–25", False, "NSF Travel Award", "ICSE 2024 and ICSE 2025"),
- ("2020", False, "Gold Medalist, NPTEL (IIT Ropar)", "Rank 1 in college, B.Tech Computer Science"),
+ ("2020–22", False, "Gold Medalist and Rank 1", "Gold Medal, NPTEL, IIT Ropar (2020)<br>Rank 1 in college, B.Tech Computer Science (2022)"),
 ]
 awards_html = "\n".join(f'''          <li><span class="y">{y}</span><span>{('<span class="award">' + TROPHY + 'Award</span>') if t else ''}<b>{n}</b><small>{d}</small></span></li>''' for y, t, n, d, *c in AWARDS)
 INDUSTRY = [
