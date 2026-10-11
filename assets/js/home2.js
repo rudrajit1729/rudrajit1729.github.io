@@ -109,7 +109,7 @@
     document.getElementById('selected').innerHTML = sel.map(p => `
       <article class="paper-card glass lift spot">
         <div class="meta"><span class="badge">${esc(p.venueShort)}</span><span class="muted" style="font-size:13px">${p.year}</span>
-          ${p.award ? `<span class="award">${ICONS.trophy}${esc(p.award)}</span>` : ''}</div>
+          ${p.award ? (p.awardCert ? `<a class="award" href="${esc(p.awardCert)}" target="_blank" rel="noopener" title="View certificate">${ICONS.trophy}${esc(p.award)} ↗</a>` : `<span class="award">${ICONS.trophy}${esc(p.award)}</span>`) : ''}</div>
         <h3>${esc(p.title)}</h3>
         <div class="au">${boldMe(p.authors)}</div>
         <div class="links">
