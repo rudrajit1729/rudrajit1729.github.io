@@ -199,7 +199,7 @@
         <h3><a href="${esc(link)}" target="_blank" rel="noopener">${hl(p.title)}</a></h3>
         <div class="au">${au}</div>
         <div class="vf">${hl(p.venue)}</div>
-        <div class="row">${p.award ? `<span class="award">${ICONS.trophy}${esc(p.award)}</span>` : ''}${tags}</div>
+        <div class="row">${p.award ? (p.awardCert ? `<a class="award" href="${esc(p.awardCert)}" target="_blank" rel="noopener" title="View certificate">${ICONS.trophy}${esc(p.award)} ↗</a>` : `<span class="award">${ICONS.trophy}${esc(p.award)}</span>`) : ''}${tags}</div>
         <div class="actions">${acts.join('')}</div>
         ${S.open.has(p.id) && p.abstract ? `<div class="abstract">${hl(p.abstract)}</div>` : ''}
       </div>

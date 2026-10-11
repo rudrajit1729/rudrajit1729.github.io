@@ -514,3 +514,5 @@ a.person:hover h3 { color: var(--accent); }
 .contact-row a:hover { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, var(--hairline)); background: var(--glass); }
 .contact-row svg { width: 15px; height: 15px; flex: none; color: var(--accent); }
 @media (max-width: 640px) { .contact-row a { font-size: 13px; } }
+a.award { text-decoration: none; }
+a.award:hover { background: color-mix(in srgb, var(--gold) 22%, transparent); }

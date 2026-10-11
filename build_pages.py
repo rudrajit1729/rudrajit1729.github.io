@@ -2,7 +2,7 @@
 Run: python3 build_pages.py"""
 import pathlib, re
 ROOT = pathlib.Path(__file__).parent
-V = "42"
+V = "47"
 FAV = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E"
        "%3Cstop offset='0' stop-color='%230a6cff'/%3E%3Cstop offset='1' stop-color='%235e5ce6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='16' fill='url(%23g)'/%3E"
        "%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E")
@@ -183,16 +183,16 @@ media_html = "\n".join(f'''      <a class="media glass lift spot reveal" href="{
         <span class="go">May 2026 · Watch or read →</span>
       </a>''' for o, k, t, u in MEDIA)
 AWARDS = [
- ("2026", True, "ACM SIGSOFT Distinguished Paper Award", "ICSE 2026, for “Maybe We Need Some More Examples”"),
- ("2026", True, "IEEE Distinguished Paper Award", "ICSME 2026 Industry Track, for “To Copilot and Beyond”"),
- ("2021", True, "IAPR Distinguished Paper Award", "CVIP 2021"),
- ("2021", True, "Best Paper Award", "ICACA 2021"),
+ ("2026", True, "ACM SIGSOFT Distinguished Paper Award", "ICSE 2026, for “Maybe We Need Some More Examples”", "/assets/pdf/awards/ICSE-2026-Distinguished-Paper-Award.pdf"),
+ ("2026", True, "IEEE Distinguished Paper Award", "ICSME 2026 Industry Track, for “To Copilot and Beyond”", "/assets/pdf/awards/ICSME-2026-Distinguished-Paper-Award.pdf"),
+ ("2021", True, "IAPR Distinguished Paper Award", "CVIP 2021", "/assets/pdf/awards/CVIP-2021-IAPR-Best-Student-Paper-Award.pdf"),
+ ("2021", True, "Best Paper Award", "ICACA 2021", "/assets/pdf/awards/ICACA-2021-Best-Paper-Award.pdf"),
  ("2025", False, "MOSIP Global Impact Inclusive Research Fellowship", "Gates Foundation-funded"),
- ("2025", False, "OpenAI Researcher Access Program Grant", "Sole PI"),
+ ("2025", False, "OpenAI Researcher Access Program Grant", "PI"),
  ("2024–25", False, "NSF Travel Award", "ICSE 2024 and ICSE 2025"),
  ("2020", False, "Gold Medalist, NPTEL (IIT Ropar)", "Rank 1 in college, B.Tech Computer Science"),
 ]
-awards_html = "\n".join(f'''          <li><span class="y">{y}</span><span>{('<span class="award">' + TROPHY + 'Award</span>') if t else ''}<b>{n}</b><small>{d}</small></span></li>''' for y, t, n, d in AWARDS)
+awards_html = "\n".join(f'''          <li><span class="y">{y}</span><span>{('<span class="award">' + TROPHY + 'Award</span>') if t else ''}<b>{n}</b><small>{d}</small></span></li>''' for y, t, n, d, *c in AWARDS)
 INDUSTRY = [
  ("Aug 2026", "Where do developers draw the line on AI autonomy?", "Research-Driven Engineering Leadership (RDEL #158), features “You Shall Not Pass”", "https://rdel.substack.com/p/rdel-158-where-do-developers-draw"),
  ("Jul 2026", "Five studies that are changing how I think about AI in software engineering", "DX Engineering Enablement, Brian Houck, features “AI Where It Matters” and “To Copilot and Beyond”", "https://newsletter.getdx.com/p/five-studies-that-are-changing-how"),
@@ -209,11 +209,14 @@ ind_cards = "\n".join(f'''      <a class="media glass lift spot reveal" href="{u
         <small class="muted" style="font-size:13.5px">{sub}</small>
         <span class="go">{d} · Read →</span>
       </a>''' for d, t, sub, u in INDUSTRY)
-award_cards = "\n".join(f'''      <article class="award-card glass reveal{" prize" if t else ""}">
+def award_card(y, t, n, d, cert=None):
+    sub = f"\n        <small>{d}</small>" if d else ""
+    link = f'\n        <a class="cert" href="{cert}" target="_blank" rel="noopener">View certificate →</a>' if cert else ""
+    return f'''      <article class="award-card glass reveal{" prize" if t else ""}">
         <div class="top"><span class="ic">{TROPHY if t else MEDAL}</span><span class="y">{y}</span></div>
-        <h3>{n}</h3>
-        <small>{d}</small>
-      </article>''' for y, t, n, d in AWARDS)
+        <h3>{n}</h3>{sub}{link}
+      </article>'''
+award_cards = "\n".join(award_card(*a) for a in AWARDS)
 talks = f'''  <section class="page-hero reveal">
     <h1>Talks, awards &amp; <em>media</em></h1>
     <p>Coverage on TV, radio, and in the news, invited talks with slides, industry newsletter features, and awards.</p>
