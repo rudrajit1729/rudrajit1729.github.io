@@ -141,3 +141,4 @@
 }
 .award-card .cert { margin-top: auto; font-size: 13.5px; font-weight: 600; color: var(--accent); text-decoration: none; }
 .award-card .cert:hover { text-decoration: underline; }
+section[id] { scroll-margin-top: 96px; }
