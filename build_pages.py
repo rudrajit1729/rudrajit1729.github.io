@@ -2,7 +2,7 @@
 Run: python3 build_pages.py"""
 import pathlib, re
 ROOT = pathlib.Path(__file__).parent
-V = "50"
+V = "51"
 FAV = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E"
        "%3Cstop offset='0' stop-color='%230a6cff'/%3E%3Cstop offset='1' stop-color='%235e5ce6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='16' fill='url(%23g)'/%3E"
        "%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E")
@@ -194,6 +194,7 @@ AWARDS = [
 ]
 awards_html = "\n".join(f'''          <li><span class="y">{y}</span><span>{('<span class="award">' + TROPHY + 'Award</span>') if t else ''}<b>{n}</b><small>{d}</small></span></li>''' for y, t, n, d, *c in AWARDS)
 INDUSTRY = [
+ ("Oct 2026", "AI made developers faster. Is their judgment keeping up?", "DX Engineering Enablement, Brian Houck, features “To Boldly Go”", "https://newsletter.getdx.com/p/ai-made-developers-faster-is-their"),
  ("Aug 2026", "Where do developers draw the line on AI autonomy?", "Research-Driven Engineering Leadership (RDEL #158), features “You Shall Not Pass”", "https://rdel.substack.com/p/rdel-158-where-do-developers-draw"),
  ("Jul 2026", "Five studies that are changing how I think about AI in software engineering", "DX Engineering Enablement, Brian Houck, features “AI Where It Matters” and “To Copilot and Beyond”", "https://newsletter.getdx.com/p/five-studies-that-are-changing-how"),
  ("May 2026", "The AI-native developer", "DX Engineering Enablement, Brian Houck, features “The AI-Native Developer” (ACM Queue)", "https://newsletter.getdx.com/p/the-ai-native-developer"),
