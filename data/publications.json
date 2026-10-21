@@ -1,5 +1,30 @@
 [
  {
+  "id": "choudhuri2026boldly",
+  "type": "Preprint",
+  "title": "“To Boldly Go Where No One Has Gone Before”: What Has AI Let Developers Unlock?",
+  "authors": "R Choudhuri, J L Butler, C Bird, C Badea, B Houck, A Sarma",
+  "venue": "Preprint, Oct 2026. Microsoft, N=331 developers",
+  "venueShort": "Preprint",
+  "year": 2026,
+  "award": null,
+  "url": "https://arxiv.org/pdf/2610.23708",
+  "pdf": "https://arxiv.org/pdf/2610.23708",
+  "data": null,
+  "slides": null,
+  "selected": true,
+  "tags": [
+   "Human-AI Collaboration",
+   "Future of Work"
+  ],
+  "abstract": "Measuring AI by how much faster developers work is like judging electricity by how much faster it spun a steam-era factory. A fuller measure asks what new work becomes possible. We surveyed 331 software developers at Microsoft about what AI lets them do that they could not do before and analyzed their answers using reflexive thematic analysis with a human-in-the-loop, multi-model AI council. Developers described doing familiar work faster (Faster, 45%), undertaking work previously beyond their reach (Further, 36.9%), and taking on new kinds of work centered on building for and directing AI agents (Afresh, 12.4%). Across these accounts, learning and scaffolding ran in both directions: developers learned new skills with AI while externalizing their tacit knowledge as the context and standards that guide AI's work. Drawing on Vygotsky's zone of proximal development, we frame developers and AI as joint learners whose zones meet at the skill-judgment nexus: AI can supply skill faster than it can reliably judge its own work, and developers must continuously bridge that gap. Whether they do sets them on one of two paths. On one, developers' judgment grows alongside AI's skill, and they codify what they learn so the loop keeps turning. On the other, they become hollow orchestrators, approving work they can no longer judge and losing the identity and meaning they once drew from it. Based on our findings, we offer a two-way scaffolding playbook to help developers, teams, and tool builders take the first path.",
+  "methods": [
+   "Large-scale surveys",
+   "Mixed methods analysis",
+   "Design frameworks & guidelines"
+  ]
+ },
+ {
   "id": "choudhuri2026coworker",
   "type": "Preprint",
   "title": "What Makes a Great Co-Worker in an AI-Native Workplace?",
