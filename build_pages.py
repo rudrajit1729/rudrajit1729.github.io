@@ -168,6 +168,7 @@ talks_html = "\n".join(f'''      <article class="talk glass reveal">
         <a class="slides" href="/assets/slides/{s}" target="_blank" rel="noopener">{SLIDE}Slides</a>
       </article>''' for m, y, t, v, s in TALKS)
 MEDIA = [
+ ("OSU Newsroom", "News", "Tech-savvy STEM students prone to letting AI do their thinking for them, study shows", "https://news.oregonstate.edu/news/tech-savvy-stem-students-prone-letting-ai-do-their-thinking-them-study-shows"),
  ("KGW TV News", "TV", "AI might be reshaping how college students learn, at the expense of critical thinking", "https://www.instagram.com/reel/DXxGQS1isbu/"),
  ("KATU ABC2", "TV", "OSU study raises concerns about AI’s impact on student thinking skills", "https://www.youtube.com/watch?v=3miv5SsLxcU"),
  ("KOIN 6 News", "News", "OSU study warns of declining cognitive ability as AI use grows in STEM fields", "https://www.koin.com/news/oregon/osu-study-warns-of-declining-cognitive-ability-as-ai-use-grows-in-stem-fields/"),

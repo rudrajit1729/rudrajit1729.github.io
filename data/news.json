@@ -1,11 +1,6 @@
 [
- {
-  "date": "2026-10-21",
-  "type": "Newsletter",
-  "title": "AI made developers faster. Is their judgment keeping up?",
-  "outlet": "DX Engineering Enablement, Brian Houck",
-  "url": "https://newsletter.getdx.com/p/ai-made-developers-faster-is-their"
- },
+ {"date":"2026-10-22","type":"Press","title":"Tech-savvy STEM students prone to letting AI do their thinking for them, study shows","outlet":"Oregon State University Newsroom","url":"https://news.oregonstate.edu/news/tech-savvy-stem-students-prone-letting-ai-do-their-thinking-them-study-shows"},
+ {"date":"2026-10-21","type":"Newsletter","title":"AI made developers faster. Is their judgment keeping up?","outlet":"DX Engineering Enablement, Brian Houck","url":"https://newsletter.getdx.com/p/ai-made-developers-faster-is-their"},
  {"date":"2026-09-21","type":"Paper","title":"“Thinking Less, Trusting More” accepted to Information and Software Technology","outlet":"IST · Impact Factor 4.6","url":"https://doi.org/10.1016/j.infsof.2026.108346"},
  {"date":"2026-09-19","type":"Paper","title":"Brain tissue segmentation paper accepted to Applied Soft Computing","outlet":"ASOC · Impact Factor 7.8","url":"https://doi.org/10.1016/j.asoc.2026.116493"},
  {"date":"2026-09-16","type":"Award","title":"IEEE Distinguished Paper Award for “To Copilot and Beyond”","outlet":"ICSME 2026, Industry Track","url":"https://arxiv.org/pdf/2604.07830"},
