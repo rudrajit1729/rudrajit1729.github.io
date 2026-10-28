@@ -2,7 +2,7 @@
 Run: python3 build_pages.py"""
 import pathlib, re
 ROOT = pathlib.Path(__file__).parent
-V = "51"
+V = "52"
 FAV = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E"
        "%3Cstop offset='0' stop-color='%230a6cff'/%3E%3Cstop offset='1' stop-color='%235e5ce6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='16' fill='url(%23g)'/%3E"
        "%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='18' fill='white' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E")
@@ -168,21 +168,22 @@ talks_html = "\n".join(f'''      <article class="talk glass reveal">
         <a class="slides" href="/assets/slides/{s}" target="_blank" rel="noopener">{SLIDE}Slides</a>
       </article>''' for m, y, t, v, s in TALKS)
 MEDIA = [
- ("OSU Newsroom", "News", "Tech-savvy STEM students prone to letting AI do their thinking for them, study shows", "https://news.oregonstate.edu/news/tech-savvy-stem-students-prone-letting-ai-do-their-thinking-them-study-shows"),
- ("KGW TV News", "TV", "AI might be reshaping how college students learn, at the expense of critical thinking", "https://www.instagram.com/reel/DXxGQS1isbu/"),
- ("KATU ABC2", "TV", "OSU study raises concerns about AI’s impact on student thinking skills", "https://www.youtube.com/watch?v=3miv5SsLxcU"),
- ("KOIN 6 News", "News", "OSU study warns of declining cognitive ability as AI use grows in STEM fields", "https://www.koin.com/news/oregon/osu-study-warns-of-declining-cognitive-ability-as-ai-use-grows-in-stem-fields/"),
- ("Jefferson Public Radio", "Radio", "The staggering “cognitive debt” of generative AI in education", "https://www.ijpr.org/podcast/the-jefferson-exchange/2026-05-06/mindblowing-the-staggering-cognitive-debt-of-generative-ai-in-education"),
- ("SAN News", "News", "America’s STEM students are falling into an “AI dependence spiral”", "https://san.com/cc/americas-stem-students-are-falling-into-an-ai-dependence-spiral/"),
- ("The News Guard", "News", "Tech-savvy STEM students prone to letting AI do their thinking for them", "https://www.thenewsguard.com/news/tech-savvy-stem-students-prone-to-letting-ai-do-their-thinking-for-them-osu-study/article_901edad0-1e2f-4f1e-aa41-8ae7a1fdff3a.html"),
- ("Yahoo News", "News", "OSU study warns of declining cognitive ability as AI use grows in STEM fields", "https://www.yahoo.com/news/articles/osu-study-warns-declining-cognitive-011014556.html"),
- ("KGW TV News", "TV", "AI literacy to prevent scams in the AI era", "https://www.youtube.com/watch?v=3m1ZyJx4sic&t=16m"),
+ ("Oct 2026", "KPTV FOX 12", "TV", "Study shows AI may inhibit cognitive abilities (15-minute interview)", "https://www.youtube.com/watch?v=D53pi0lAeko"),
+ ("Oct 2026", "OSU Newsroom", "News", "Tech-savvy STEM students prone to letting AI do their thinking for them, study shows", "https://news.oregonstate.edu/news/tech-savvy-stem-students-prone-letting-ai-do-their-thinking-them-study-shows"),
+ ("May 2026", "KGW TV News", "TV", "AI might be reshaping how college students learn, at the expense of critical thinking", "https://www.instagram.com/reel/DXxGQS1isbu/"),
+ ("May 2026", "KATU ABC2", "TV", "OSU study raises concerns about AI’s impact on student thinking skills", "https://www.youtube.com/watch?v=3miv5SsLxcU"),
+ ("May 2026", "KOIN 6 News", "News", "OSU study warns of declining cognitive ability as AI use grows in STEM fields", "https://www.koin.com/news/oregon/osu-study-warns-of-declining-cognitive-ability-as-ai-use-grows-in-stem-fields/"),
+ ("May 2026", "Jefferson Public Radio", "Radio", "The staggering “cognitive debt” of generative AI in education", "https://www.ijpr.org/podcast/the-jefferson-exchange/2026-05-06/mindblowing-the-staggering-cognitive-debt-of-generative-ai-in-education"),
+ ("May 2026", "SAN News", "News", "America’s STEM students are falling into an “AI dependence spiral”", "https://san.com/cc/americas-stem-students-are-falling-into-an-ai-dependence-spiral/"),
+ ("May 2026", "The News Guard", "News", "Tech-savvy STEM students prone to letting AI do their thinking for them", "https://www.thenewsguard.com/news/tech-savvy-stem-students-prone-to-letting-ai-do-their-thinking-for-them-osu-study/article_901edad0-1e2f-4f1e-aa41-8ae7a1fdff3a.html"),
+ ("May 2026", "Yahoo News", "News", "OSU study warns of declining cognitive ability as AI use grows in STEM fields", "https://www.yahoo.com/news/articles/osu-study-warns-declining-cognitive-011014556.html"),
+ ("May 2026", "KGW TV News", "TV", "AI literacy to prevent scams in the AI era", "https://www.youtube.com/watch?v=3m1ZyJx4sic&t=16m"),
 ]
 media_html = "\n".join(f'''      <a class="media glass lift spot reveal" href="{u}" target="_blank" rel="noopener">
         <div class="top"><span class="outlet">{o}</span><span class="badge soft">{k}</span></div>
         <h3>{t}</h3>
-        <span class="go">May 2026 · Watch or read →</span>
-      </a>''' for o, k, t, u in MEDIA)
+        <span class="go">{d} · Watch or read →</span>
+      </a>''' for d, o, k, t, u in MEDIA)
 AWARDS = [
  ("2026", True, "ACM SIGSOFT Distinguished Paper Award", "ICSE 2026, for “Maybe We Need Some More Examples”", "/assets/pdf/awards/ICSE-2026-Distinguished-Paper-Award.pdf"),
  ("2026", True, "IEEE Distinguished Paper Award", "ICSME 2026 Industry Track, for “To Copilot and Beyond”", "/assets/pdf/awards/ICSME-2026-Distinguished-Paper-Award.pdf"),
