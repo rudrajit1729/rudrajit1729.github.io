@@ -99,30 +99,6 @@
   ]
  },
  {
-  "id": "annunziata2026team",
-  "type": "Preprint",
-  "title": "When AI Joins the Team! A Model of How AI Adoption Relates to Social Patterns in Software Engineering Teams",
-  "authors": "G Annunziata, R Choudhuri, A Sarma, G Catolino, F Ferrucci",
-  "venue": "Preprint, Aug 2026",
-  "venueShort": "Preprint",
-  "year": 2026,
-  "award": null,
-  "url": "https://arxiv.org/pdf/2608.03462",
-  "pdf": "https://arxiv.org/pdf/2608.03462",
-  "data": null,
-  "slides": null,
-  "selected": false,
-  "tags": [
-   "Human-AI Collaboration",
-   "Trust & Adoption"
-  ],
-  "abstract": "Context: The growing adoption of AI-assisted development tools is changing how software teams collaborate, share knowledge, and coordinate, yet its consequences for team social dynamics remain largely unexplored. Gap: It is unclear whether AI adoption is associated with an increase or reduction in community smells,socio-technical anti-patterns reflecting coordination and communication breakdowns,and through which mechanisms. Method: Grounded in Transactive Memory Systems (TMS) theory, we validate instruments for HumanAI and HumanHuman interaction along two TMS dimensions, Specialization and Coordination, and test five PLS-SEM models on survey data from 152 software professionals using AI tools. Community smell constructs were derived from the literature and validated through expert surveys and factor analysis. Results: AI adoption relates to community smells not in a single way, but through mechanisms depending on the work. In specialization work, AI is associated with higher knowledge-sharing peer interaction, which is in turn associated with fewer smells. In coordination work, AI is directly associated with higher communication quality, complementing rather than replacing human interaction. Contributions: We provide an empirically validated, TMS-grounded model showing that the AIcommunity-smell relationship is contingent on the type of collaboration, with a reusable instrument and evidence-based implications for research and practice.",
-  "methods": [
-   "Large-scale surveys",
-   "Design frameworks & guidelines"
-  ]
- },
- {
   "id": "choudhuri2026ysnp",
   "type": "Preprint",
   "title": "You Shall Not Pass! Where and Why Developers Draw the Line on AI Autonomy",
