@@ -1,5 +1,29 @@
 [
  {
+  "id": "schutz2026vibeparadox",
+  "type": "Preprint",
+  "title": "The Vibe Paradox: What EEG Reveals About Your Brain When Vibe Coding",
+  "authors": "O Schutz*, R Choudhuri*, Y Qiao, F A Moussaoui, J Russo, Z Steine-Hanson, A Sarma",
+  "venue": "Preprint, Nov 2026. *Co-first authors. EEG study, n=11, 22 sessions",
+  "venueShort": "Preprint",
+  "year": 2026,
+  "award": null,
+  "url": "https://arxiv.org/pdf/2611.02087",
+  "pdf": "https://arxiv.org/pdf/2611.02087",
+  "data": "https://doi.org/10.5281/zenodo.23828529",
+  "slides": null,
+  "selected": true,
+  "tags": [
+   "Human-AI Collaboration",
+   "Cognitive Effects"
+  ],
+  "abstract": "Much of the enthusiasm for vibe coding rests on two intuitive beliefs: that developers stay invested even when they no longer write the code, and that delegating more of the work to AI lowers their cognitive load. We investigated whether developers' neurophysiological states and interactions with AI are consistent with these beliefs when they work with agentic vs. non-agentic AI on their own project vs. a legacy codebase. We conducted an exploratory within-subjects crossover study with 11 participants across 22 sessions, recording EEG, on-screen activity, and prompts, and analyzed 7,924 EEG data points, 984 activities, and 141 prompts. Our findings contradict both beliefs. With the agent, participants remained indifferent to task outcomes, even on their own projects, and cognitive load was higher than with non-agentic AI. Their ways of interacting also shifted: with non-agentic AI, participants asked how the code worked and read it to verify changes; with the agent, they described desired app behavior and checked results in the running app. Our study reveals a vibe paradox: delegating to an agent left participants motivationally disinterested, even on their own projects, without relieving cognitive load, while coinciding with increased trust in AI.",
+  "methods": [
+   "Controlled experiments",
+   "Mixed methods analysis"
+  ]
+ },
+ {
   "id": "choudhuri2026boldly",
   "type": "Preprint",
   "title": "“To Boldly Go Where No One Has Gone Before”: What Has AI Let Developers Unlock?",
@@ -10,7 +34,7 @@
   "award": null,
   "url": "https://arxiv.org/pdf/2610.23708",
   "pdf": "https://arxiv.org/pdf/2610.23708",
-  "data": null,
+  "data": "https://zenodo.org/records/23311081",
   "slides": null,
   "selected": true,
   "tags": [
