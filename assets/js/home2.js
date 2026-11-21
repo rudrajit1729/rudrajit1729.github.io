@@ -100,7 +100,7 @@
     const [n, pubs] = await Promise.all([getJSON(DATA + 'news.json'), getJSON(DATA + 'publications.json')]);
     news = n.sort((a, b) => b.date.localeCompare(a.date));
     renderNews('all');
-    document.getElementById('stat-pubs').dataset.to = Math.floor(pubs.length / 10) * 10;
+    document.getElementById('stat-pubs').dataset.to = pubs.length;
 
     const ids = ['choudhuri2026copilot', 'miller2026examples', 'choudhuri2026thinking', 'choudhuri2026attention',
       'choudhuri2026matters', 'choudhuri2026coworker', 'choudhuri2026ysnp', 'choudhuri2026ainative',
